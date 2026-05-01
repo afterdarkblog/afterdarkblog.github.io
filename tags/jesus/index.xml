@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jesus on After Dark</title>
+    <link>https://afterdarkblog.github.io/tags/jesus/</link>
+    <description>Recent content in Jesus on After Dark</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 26 Sep 2023 22:07:18 +0200</lastBuildDate>
+    <atom:link href="https://afterdarkblog.github.io/tags/jesus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was gibt es Neues</title>
+      <link>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</link>
+      <pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Public on After Dark</title>
+    <link>https://afterdarkblog.github.io/tags/public/</link>
+    <description>Recent content in Public on After Dark</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 24 Jul 2023 23:51:31 +0200</lastBuildDate>
+    <atom:link href="https://afterdarkblog.github.io/tags/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuer Post</title>
+      <link>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</link>
+      <pubDate>Mon, 24 Jul 2023 00:26:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Denote Hugo 2</title>
+      <link>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</link>
+      <pubDate>Sat, 22 Jul 2023 15:44:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Denote Hugo</title>
+      <link>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</link>
+      <pubDate>Sat, 22 Jul 2023 00:33:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Fünfter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>dritter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 15:41:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Zweiter Eintrag heute</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</link>
+      <pubDate>Fri, 21 Jul 2023 09:07:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</guid>
+      <description>&lt;p&gt;Hier schreibe ich weiter.&lt;/p&gt;
+&lt;h2 id=&#34;eine-erste-überschrift&#34;&gt;eine erste Überschrift&lt;/h2&gt;
+&lt;p&gt;mit ihrem Text&lt;/p&gt;
+&lt;h2 id=&#34;und-eine-weitere&#34;&gt;und eine weitere&lt;/h2&gt;
+&lt;p&gt;und so weiter&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neuer Eintrag auf After Dark</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t084057--neuer-eintrag-auf-after-dark__public/</link>
+      <pubDate>Fri, 21 Jul 2023 08:40:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t084057--neuer-eintrag-auf-after-dark__public/</guid>
+      <description>&lt;p&gt;Hier kommt etwas Text.&lt;/p&gt;
+&lt;h2 id=&#34;hier-eine-überschrift&#34;&gt;Hier eine Überschrift&lt;/h2&gt;
+&lt;p&gt;und der Text&lt;/p&gt;
+&lt;h2 id=&#34;und-so-weiter&#34;&gt;und so weiter&lt;/h2&gt;
+&lt;p&gt;schau ma mal&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Theology on After Dark</title>
+    <link>https://afterdarkblog.github.io/categories/theology/</link>
+    <description>Recent content in Theology on After Dark</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 21 Jul 2023 18:07:00 +0200</lastBuildDate>
+    <atom:link href="https://afterdarkblog.github.io/categories/theology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fünfter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>dritter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 15:41:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+  </channel>
+</rss>

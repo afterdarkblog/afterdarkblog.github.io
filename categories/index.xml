@@ -15,5 +15,40 @@
       <guid>https://afterdarkblog.github.io/categories/emacs/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Privat</title>
+      <link>https://afterdarkblog.github.io/categories/privat/</link>
+      <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/privat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schule</title>
+      <link>https://afterdarkblog.github.io/categories/schule/</link>
+      <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/schule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>https://afterdarkblog.github.io/categories/family/</link>
+      <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Denote</title>
+      <link>https://afterdarkblog.github.io/categories/denote/</link>
+      <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/denote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theology</title>
+      <link>https://afterdarkblog.github.io/categories/theology/</link>
+      <pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/theology/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

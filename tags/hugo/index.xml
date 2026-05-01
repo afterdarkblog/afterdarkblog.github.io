@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on After Dark</title>
+    <link>https://afterdarkblog.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on After Dark</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 11 Mar 2025 09:23:37 +0100</lastBuildDate>
+    <atom:link href="https://afterdarkblog.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neue Schule</title>
+      <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
+      <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Und jedem Anfang wohnt ein Zauber inne</title>
+      <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
+      <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Was gibt es Neues</title>
+      <link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link>
+      <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+    <item>
+      <title>Blogeinträge mit Denote und Hugo</title>
+      <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
+      <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+  </channel>
+</rss>

@@ -15,5 +15,33 @@
       <guid>https://afterdarkblog.github.io/tags/emacs/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Schule</title>
+      <link>https://afterdarkblog.github.io/tags/schule/</link>
+      <pubDate>Fri, 24 Oct 2025 08:53:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/tags/schule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://afterdarkblog.github.io/tags/hugo/</link>
+      <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
+      <guid>https://afterdarkblog.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jesus</title>
+      <link>https://afterdarkblog.github.io/tags/jesus/</link>
+      <pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/tags/jesus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Public</title>
+      <link>https://afterdarkblog.github.io/tags/public/</link>
+      <pubDate>Mon, 24 Jul 2023 00:26:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/tags/public/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
