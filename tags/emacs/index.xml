@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Emacs on After Dark</title>
+    <link>http://localhost:1313/tags/emacs/</link>
+    <description>Recent content in Emacs on After Dark</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 30 Apr 2026 14:44:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuer Anfang mit dem Blog</title>
+      <link>http://localhost:1313/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</link>
+      <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+    </item>
+  </channel>
+</rss>
