@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>© Matthias Fuchs</copyright>
-    <lastBuildDate>Thu, 30 Apr 2026 14:44:18 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 15:59:54 +0200</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privat</title>
+      <link>https://afterdarkblog.github.io/categories/privat/</link>
+      <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/categories/privat/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Emacs</title>
       <link>https://afterdarkblog.github.io/categories/emacs/</link>
       <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/categories/emacs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privat</title>
-      <link>https://afterdarkblog.github.io/categories/privat/</link>
-      <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
-      <guid>https://afterdarkblog.github.io/categories/privat/</guid>
       <description></description>
     </item>
     <item>

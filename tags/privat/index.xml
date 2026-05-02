@@ -2,26 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privat on After Dark</title>
-    <link>https://afterdarkblog.github.io/categories/privat/</link>
+    <link>https://afterdarkblog.github.io/tags/privat/</link>
     <description>Recent content in Privat on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Sat, 02 May 2026 15:59:54 +0200</lastBuildDate>
-    <atom:link href="https://afterdarkblog.github.io/categories/privat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://afterdarkblog.github.io/tags/privat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reise nach Wien</title>
       <link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link>
       <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid>
       <description>&lt;h2 id=&#34;hinreise&#34;&gt;Hinreise&lt;/h2&gt;&#xA;&lt;p&gt;Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hotel&#34;&gt;Hotel&lt;/h2&gt;&#xA;&lt;p&gt;Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis.&lt;/p&gt;&#xA;&lt;h2 id=&#34;wallfahrt-zu-sieben-kirchen&#34;&gt;Wallfahrt zu sieben Kirchen&lt;/h2&gt;&#xA;&lt;p&gt;Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet um die sieben Gaben des Hl. Geistes.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;St. Rochus (extra: eucharistische Anbetung rund um die Uhr).&lt;/li&gt;&#xA;&lt;li&gt;Dominikaner&lt;/li&gt;&#xA;&lt;li&gt;Jesuiten&lt;/li&gt;&#xA;&lt;li&gt;Franziskaner&lt;/li&gt;&#xA;&lt;li&gt;Kapuziner&lt;/li&gt;&#xA;&lt;li&gt;Schotten&lt;/li&gt;&#xA;&lt;li&gt;Maria am Gestade&lt;/li&gt;&#xA;&lt;li&gt;Petruskirche&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mittagessen mit Meli und Eisessen&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Caddy bye bye</title>
-      <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
-      <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
-      <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
-      <description>&lt;h2 id=&#34;erinnerungen&#34;&gt;Erinnerungen&lt;/h2&gt;&#xA;&lt;p&gt;Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!&lt;/p&gt;&#xA;&lt;p&gt;Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&amp;rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
