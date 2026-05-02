@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs on After Dark</title>
     <link>https://afterdarkblog.github.io/tags/emacs/</link>
     <description>Recent content in Emacs on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Thu, 30 Apr 2026 14:44:18 +0200</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,28 +14,28 @@
       <link>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</link>
       <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;problem-mit-email-adresse&#34;&gt;Problem mit Email Adresse&lt;/h2&gt;&#xA;&lt;p&gt;Die ursprüngliche Emailadresse für den Blog (nmsgolling.at) hat nicht funktioniert. Ich hatte keinen Zugang mehr.&lt;/p&gt;&#xA;&lt;p&gt;Also musste ich einen neuen Account mit einer anderen Adresse anlegen und die beiden Repos auf Github anlegen. Nach mehreren Versuchen hat es jetzt geklappt. Hoffentlich.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Mal schauen, was hier heraus kommt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Caddy bye bye</title>
       <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
       <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;erinnerungen&#34;&gt;Erinnerungen&lt;/h2&gt;&#xA;&lt;p&gt;Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!&lt;/p&gt;&#xA;&lt;p&gt;Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&amp;rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Doom Emacs vs Spacemacs vs Emacs</title>
       <link>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</link>
       <pubDate>Mon, 23 Oct 2023 10:24:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;doom-emacs-plus-spacemacs&#34;&gt;Doom Emacs + Spacemacs&lt;/h2&gt;&#xA;&lt;p&gt;Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Daher bleibe ich bei &amp;ldquo;meinem&amp;rdquo; Emacs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Was gibt es Neues</title>
       <link>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</link>
       <pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;schule&#34;&gt;Schule&lt;/h2&gt;&#xA;&lt;p&gt;Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.&lt;/p&gt;&#xA;&lt;p&gt;Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schule on After Dark</title>
     <link>https://afterdarkblog.github.io/tags/schule/</link>
     <description>Recent content in Schule on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Tue, 17 Mar 2026 11:58:41 +0100</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/tags/schule/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +14,7 @@
       <link>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</link>
       <pubDate>Fri, 24 Oct 2025 08:53:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;jedem-anfang-dot-dot-dot&#34;&gt;Jedem Anfang &amp;hellip;&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip; wohnt ein Zauber inne - sagte &lt;a href=&#34;https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/&#34;&gt;Hermann Hesse&lt;/a&gt;  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.&lt;/p&gt;&#xA;&lt;p&gt;Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schulen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

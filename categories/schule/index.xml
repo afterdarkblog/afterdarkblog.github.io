@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schule on After Dark</title>
     <link>https://afterdarkblog.github.io/categories/schule/</link>
     <description>Recent content in Schule on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Tue, 11 Mar 2025 09:23:37 +0100</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/categories/schule/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,14 +14,14 @@
       <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
       <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://afterdarkblog.github.io/purple-gnu.jpg&#34; alt=&#34;Löwe&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mms-abtenau&#34;&gt;MMS Abtenau&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).&lt;/p&gt;&#xA;&lt;h2 id=&#34;wie-geht-es-weiter&#34;&gt;Wie geht es weiter?&lt;/h2&gt;&#xA;&lt;p&gt;Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Und jedem Anfang wohnt ein Zauber inne</title>
       <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
       <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;rückblick&#34;&gt;Rückblick&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Innerer, geistlicher Kampf (der bis jetzt noch anhält)&lt;/li&gt;&#xA;&lt;li&gt;wenig Rückhalt von Seiten der Schulleitung&lt;/li&gt;&#xA;&lt;li&gt;mehrere, sehr &amp;ldquo;verhaltenskreative&amp;rdquo; Schüler&lt;/li&gt;&#xA;&lt;li&gt;Auswirkungen der Corona Jahre bei den Schülern, Lehrern, etc&lt;/li&gt;&#xA;&lt;li&gt;Antriebslosigkeit ganzer Klassen (nicht nur ich litt darunter; auch andere Kollegen)&lt;/li&gt;&#xA;&lt;li&gt;die Situation an der MS in der Stadt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Während des Schuljahres - es muss auf einer Heimfahrt von Hallein gewesen sein (also an einem Mittwoch) - rief mich meine Inspektorin an. Sie fragte mich, ob ich mir vorstellen könne, die Schule zu wechseln. Grundsätzlich sagte ich zu.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

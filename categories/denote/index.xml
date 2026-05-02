@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Denote on After Dark</title>
     <link>https://afterdarkblog.github.io/categories/denote/</link>
     <description>Recent content in Denote on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Thu, 25 Apr 2024 14:22:55 +0200</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/categories/denote/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +14,7 @@
       <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;denote&#34;&gt;Denote&lt;/h2&gt;&#xA;&lt;p&gt;Hier erkläre ich meinen Workflow in &lt;code&gt;org-mode&lt;/code&gt; und &lt;code&gt;denote&lt;/code&gt; für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c n t&lt;/code&gt; (&lt;code&gt;denote-template&lt;/code&gt;) &amp;ldquo;post&amp;rdquo;-Template&lt;/li&gt;&#xA;&lt;li&gt;Titel eingeben&lt;/li&gt;&#xA;&lt;li&gt;automatisches filetags: hugo&lt;/li&gt;&#xA;&lt;li&gt;Keywords: hugo&lt;/li&gt;&#xA;&lt;li&gt;Hugo-Categories: nur &lt;strong&gt;eine&lt;/strong&gt; Kategorie eintragen&lt;/li&gt;&#xA;&lt;li&gt;Blogtext schreiben&lt;/li&gt;&#xA;&lt;li&gt;save file&lt;/li&gt;&#xA;&lt;li&gt;export to hugo: &lt;code&gt;C-c C-e H H&lt;/code&gt; (export to HUGO markdown file)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c C-e H o&lt;/code&gt; (export to Hugo Markdown and open)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git-magit&#34;&gt;Git / magit&lt;/h2&gt;&#xA;&lt;h3 id=&#34;workflow-in-git&#34;&gt;Workflow in Git&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo server -D&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## Kontrolle; startet lokalen Server&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ Crtl-C &#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## lokalen Server beenden&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo                              &lt;span style=&#34;color:#75715e&#34;&gt;## Website in /public erstellen&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git add .&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## git-Befehle, auch im /public directory eingeben&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;einen commit schreiben&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git push -u origin main&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;magit-befehle&#34;&gt;&lt;code&gt;magit&lt;/code&gt; Befehle&lt;/h3&gt;&#xA;&lt;p&gt;Voher in &lt;code&gt;eshell&lt;/code&gt; die &lt;code&gt;Hugo&lt;/code&gt; Befehle eingeben.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

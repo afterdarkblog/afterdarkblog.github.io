@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Family on After Dark</title>
     <link>https://afterdarkblog.github.io/categories/family/</link>
     <description>Recent content in Family on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Thu, 25 Apr 2024 14:50:27 +0200</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/categories/family/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +14,7 @@
       <link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;privat&#34;&gt;Privat&lt;/h2&gt;&#xA;&lt;p&gt;Zuhause erfahren wir neue Herausforderungen in der Erziehung der Kinder. Gabriel tritt in die Pubertät ein. Sagt prinzipiell zu allem &amp;ldquo;Nein&amp;rdquo;; und in der Schule lässt er nach einem ausgezeichneten ersten Semester etwas nach. Gabriel ist wohl in der Phase zu mehr Selbständigkeit. Loslassen können ist schwer; die Kunst besteht darin, dies nicht aus (persönlicher) Enttäuschung zu tun, sondern zum Wohl des Kindes. Gerade in diesem Alter ist der Schritt zur Selbständigkeit so wichtig. Gabriel tut sich dabei besonders schwer.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on After Dark</title>
     <link>https://afterdarkblog.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on After Dark</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>© Matthias Fuchs</copyright>
     <lastBuildDate>Tue, 11 Mar 2025 09:23:37 +0100</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,28 +14,28 @@
       <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
       <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://afterdarkblog.github.io/purple-gnu.jpg&#34; alt=&#34;Löwe&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mms-abtenau&#34;&gt;MMS Abtenau&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).&lt;/p&gt;&#xA;&lt;h2 id=&#34;wie-geht-es-weiter&#34;&gt;Wie geht es weiter?&lt;/h2&gt;&#xA;&lt;p&gt;Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Und jedem Anfang wohnt ein Zauber inne</title>
       <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
       <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;rückblick&#34;&gt;Rückblick&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Innerer, geistlicher Kampf (der bis jetzt noch anhält)&lt;/li&gt;&#xA;&lt;li&gt;wenig Rückhalt von Seiten der Schulleitung&lt;/li&gt;&#xA;&lt;li&gt;mehrere, sehr &amp;ldquo;verhaltenskreative&amp;rdquo; Schüler&lt;/li&gt;&#xA;&lt;li&gt;Auswirkungen der Corona Jahre bei den Schülern, Lehrern, etc&lt;/li&gt;&#xA;&lt;li&gt;Antriebslosigkeit ganzer Klassen (nicht nur ich litt darunter; auch andere Kollegen)&lt;/li&gt;&#xA;&lt;li&gt;die Situation an der MS in der Stadt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Während des Schuljahres - es muss auf einer Heimfahrt von Hallein gewesen sein (also an einem Mittwoch) - rief mich meine Inspektorin an. Sie fragte mich, ob ich mir vorstellen könne, die Schule zu wechseln. Grundsätzlich sagte ich zu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Was gibt es Neues</title>
       <link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;privat&#34;&gt;Privat&lt;/h2&gt;&#xA;&lt;p&gt;Zuhause erfahren wir neue Herausforderungen in der Erziehung der Kinder. Gabriel tritt in die Pubertät ein. Sagt prinzipiell zu allem &amp;ldquo;Nein&amp;rdquo;; und in der Schule lässt er nach einem ausgezeichneten ersten Semester etwas nach. Gabriel ist wohl in der Phase zu mehr Selbständigkeit. Loslassen können ist schwer; die Kunst besteht darin, dies nicht aus (persönlicher) Enttäuschung zu tun, sondern zum Wohl des Kindes. Gerade in diesem Alter ist der Schritt zur Selbständigkeit so wichtig. Gabriel tut sich dabei besonders schwer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blogeinträge mit Denote und Hugo</title>
       <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
+      <description>&lt;h2 id=&#34;denote&#34;&gt;Denote&lt;/h2&gt;&#xA;&lt;p&gt;Hier erkläre ich meinen Workflow in &lt;code&gt;org-mode&lt;/code&gt; und &lt;code&gt;denote&lt;/code&gt; für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c n t&lt;/code&gt; (&lt;code&gt;denote-template&lt;/code&gt;) &amp;ldquo;post&amp;rdquo;-Template&lt;/li&gt;&#xA;&lt;li&gt;Titel eingeben&lt;/li&gt;&#xA;&lt;li&gt;automatisches filetags: hugo&lt;/li&gt;&#xA;&lt;li&gt;Keywords: hugo&lt;/li&gt;&#xA;&lt;li&gt;Hugo-Categories: nur &lt;strong&gt;eine&lt;/strong&gt; Kategorie eintragen&lt;/li&gt;&#xA;&lt;li&gt;Blogtext schreiben&lt;/li&gt;&#xA;&lt;li&gt;save file&lt;/li&gt;&#xA;&lt;li&gt;export to hugo: &lt;code&gt;C-c C-e H H&lt;/code&gt; (export to HUGO markdown file)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c C-e H o&lt;/code&gt; (export to Hugo Markdown and open)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git-magit&#34;&gt;Git / magit&lt;/h2&gt;&#xA;&lt;h3 id=&#34;workflow-in-git&#34;&gt;Workflow in Git&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo server -D&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## Kontrolle; startet lokalen Server&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ Crtl-C &#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## lokalen Server beenden&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo                              &lt;span style=&#34;color:#75715e&#34;&gt;## Website in /public erstellen&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git add .&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## git-Befehle, auch im /public directory eingeben&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;einen commit schreiben&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git push -u origin main&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;magit-befehle&#34;&gt;&lt;code&gt;magit&lt;/code&gt; Befehle&lt;/h3&gt;&#xA;&lt;p&gt;Voher in &lt;code&gt;eshell&lt;/code&gt; die &lt;code&gt;Hugo&lt;/code&gt; Befehle eingeben.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
