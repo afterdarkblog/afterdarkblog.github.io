@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html).</copyright>
-    <lastBuildDate>Tue, 05 May 2026 18:05:50 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 18:14:04 +0200</lastBuildDate>
     <atom:link href="https://afterdarkblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs</title>
+      <link>https://afterdarkblog.github.io/tags/emacs/</link>
+      <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
+      <guid>https://afterdarkblog.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Privat</title>
       <link>https://afterdarkblog.github.io/tags/privat/</link>
       <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
       <guid>https://afterdarkblog.github.io/tags/privat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emacs</title>
-      <link>https://afterdarkblog.github.io/tags/emacs/</link>
-      <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
-      <guid>https://afterdarkblog.github.io/tags/emacs/</guid>
       <description></description>
     </item>
     <item>
