@@ -1,27 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Privat on After Dark</title>
     <link>https://afterdarkblog.github.io/categories/privat/</link>
     <description>Recent content in Privat on After Dark</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html).</copyright>
-    <lastBuildDate>Tue, 05 May 2026 18:05:50 +0200</lastBuildDate>
-    <atom:link href="https://afterdarkblog.github.io/categories/privat/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://gnu.org).</copyright>
+    <lastBuildDate>Sat, 02 May 2026 15:51:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/privat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reise nach Wien</title>
       <link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link>
       <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid>
-      <description>&lt;h2 id=&#34;hinreise&#34;&gt;Hinreise&lt;/h2&gt;&#xA;&lt;p&gt;Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle &lt;code&gt;Hugo&lt;/code&gt; Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hotel&#34;&gt;Hotel&lt;/h2&gt;&#xA;&lt;p&gt;Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.&lt;/p&gt;</description>
+      <description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description>
+      <content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
+<p>Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle <code>Hugo</code> Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.</p>
+<h2 id="hotel">Hotel</h2>
+<p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
+<h2 id="wallfahrt-zu-sieben-kirchen">Wallfahrt zu sieben Kirchen</h2>
+<p>Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet um die sieben Gaben des Hl. Geistes.</p>
+<ul>
+<li>St. Rochus (extra: eucharistische Anbetung rund um die Uhr).</li>
+<li>Dominikaner</li>
+<li>Jesuiten</li>
+<li>Franziskaner</li>
+<li>Kapuziner</li>
+<li>Schotten</li>
+<li>Maria am Gestade</li>
+<li>Petruskirche</li>
+</ul>
+<p>Mittagessen mit Meli und Eisessen</p>
+<h2 id="zeit-mit-meli-und-otto">Zeit mit Meli und Otto</h2>
+<p>Abendessen und Kino am Freitag</p>
+<p>Mittagessen am Samstag</p>
+<h2 id="rückreise">Rückreise</h2>
+<p>Abfahrt 15h38 von Wien Westbahnhof, Ankunft um 18h08 in Salzburg.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Caddy bye bye</title>
       <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
       <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
-      <description>&lt;h2 id=&#34;erinnerungen&#34;&gt;Erinnerungen&lt;/h2&gt;&#xA;&lt;p&gt;Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!&lt;/p&gt;&#xA;&lt;p&gt;Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&amp;rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &amp;hellip;&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
+<p>Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!</p>
+<p>Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;</p>
+<p>[Fotos einfügen]</p>
+<h2 id="kosten">Kosten</h2>
+<p>Die letzten Services wurden immer teurer; wir mussten jedes Mal zwischen 1000 und 1700 Euro bezahlen. So auch dieses Mal; deshalb haben wir uns doch mit ein bisschen Wehmut dazu entscheiden müssen, den Caddy zu verkaufen (950 Euro).</p>
+<h2 id="neues-auto">Neues Auto</h2>
+<p>Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.</p>
+<p>[Fotos einfügen]</p>
+<p>Ich habe spürbar Geld und Treibstoff gespart.</p>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

@@ -1,160 +1,444 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>After Dark</title>
     <link>https://afterdarkblog.github.io/</link>
     <description>Recent content on After Dark</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html).</copyright>
-    <lastBuildDate>Sat, 20 Jun 2026 19:05:34 +0200</lastBuildDate>
-    <atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Suche nach Wahrheit</title>
-      <link>https://afterdarkblog.github.io/post/20260505t181237--suche-nach-wahrheit__privat/</link>
-      <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
-      <guid>https://afterdarkblog.github.io/post/20260505t181237--suche-nach-wahrheit__privat/</guid>
-      <description>&lt;h2 id=&#34;die-kunst-der-erziehung&#34;&gt;Die Kunst der Erziehung&lt;/h2&gt;&#xA;&lt;p&gt;Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (Bamm, Peter, 1968)&lt;/p&gt;</description>
-    </item>
+    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://gnu.org).</copyright>
+    <lastBuildDate>Tue, 05 May 2026 18:12:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Suche nach Wahrheit</title>
       <link>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</link>
       <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</guid>
-      <description>&lt;h2 id=&#34;die-kunst-der-erziehung&#34;&gt;Die Kunst der Erziehung&lt;/h2&gt;&#xA;&lt;p&gt;Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (&lt;a href=&#34;#citeproc_bib_item_1&#34;&gt;Bamm, 1968&lt;/a&gt;)&lt;/p&gt;</description>
+      <description>Über das Gute, Wahre und Schöne.</description>
+      <content:encoded><![CDATA[<h2 id="die-kunst-der-erziehung">Die Kunst der Erziehung</h2>
+<p>Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (<a href="#citeproc_bib_item_1">Bamm, 1968</a>)</p>
+<h3 id="wie-reagieren-bei-dot-dot-dot">Wie reagieren bei &hellip;</h3>
+<p>Hilft schimpfen? Wohl kaum, oder? Und trotzdem sollen Grenzen gesetzt werden. Oder sind wir dann wieder beim Gehorsam? Aber Grenzen geben doch Sicherheit, zeigen dass nicht alles erlaubt ist; wie soll das Kind Respekt lernen? Wenn ich selbst respektvoll mit Kindern umgehe. Andererseits darf ich Kinder nicht wie kleine Erwachsene behandeln, sie aufs Podest heben, &hellip; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="das-gute-wahre-und-schöne">Das Gute, Wahre und Schöne</h2>
+<h3 id="wie-bete-ich">Wie bete ich?</h3>
+<p>Ich muss mein Gebetsleben besser organisieren. Vor Kurzem habe ich gesehen, dass es v.a. um Treue und Regelmäßigkeit geht. Dies bedeutet, dass ich z.B. jeden Tag um genau 6h00 Uhr bete. <strong>Was</strong> ich bete, ist zweitrangig - Vaterunser, Ave Maria, die Bibel lesen, den Rosenkranz beten, um den Hl. Geist bitten, den Barmherzigkeitsrosenkranz beten, Benedictus, Magnifikat, Psalmen, &hellip; es gibt so vieles.</p>
+<p>Für das Gebet in der Früh fällt mir ein (ev. eine kleine Änderung: sofort nach dem Aufstehen):</p>
+<ul>
+<li>Gebet um den Hl. Geist,</li>
+<li>Bibel,</li>
+<li>Vaterunser,</li>
+<li>Ave Maria.</li>
+</ul>
+<p>Am Nachmittag:</p>
+<ul>
+<li>BIble in a year Podcast</li>
+</ul>
+<p>Am Abend:</p>
+<ul>
+<li>Barmherzigkeitsrosenkranz</li>
+</ul>
+<p>Es gibt natürlich auch das Stundengebet der Kirche.</p>
+<h2 id="aktuelles">Aktuelles</h2>
+<h3 id="hantavirus">Hantavirus</h3>
+<p>Scheinbar wird hier langsam wieder eine Panik geschürt. Seit Corona kennen wir aber das Muster. Ich habe mir gerade ein Video von Prof. Dr. Martin Haditsch angeschaut. Die Übertragungsrate, etc sind bei diesem Virus so gering, dass es keinen Grund zur Panik gibt.</p>
+<p>Hier ein Link zum Video von Prof. Dr. Martin Haditsch: <a href="https://www.youtube.com/watch?v=T4TR8VybO38">https://www.youtube.com/watch?v=T4TR8VybO38</a></p>
+<p>Des Weiteren habe ich zwei Links gefunden - nach dem ersten Artikel wusste man schon 2021, dass die nächste Pandemie mit dem Hantavirus kommen wird. Link: <a href="https://www.gavi.org/vaccineswork/next-pandemic/hantavirus">https://www.gavi.org/vaccineswork/next-pandemic/hantavirus</a></p>
+<p>Durch den zweiten Artikel wissen wir nun, dass Moderna mit einer koreanischen Universität einen mRNA Impfstoff gegen den Hantavirus entwickelt hat. Link: <a href="https://outbreaknewstoday.substack.com/p/korea-university-and-moderna-collaborate">https://outbreaknewstoday.substack.com/p/korea-university-and-moderna-collaborate</a></p>
+<p>Qui bono - wem nützt eine Pandemie? Wie passend, wenn eine Firma wie Moderna schon den Impfstoff parat hat.</p>
+<p>Ab heute ist der Hantavirus ganz oben in den Headlines beim ORF - und wird dort lange bleiben. Langsam aber sicher wird ein Bedrohungsszenario aufgebaut, mit Halbwahrheiten, Faktenchecks, &hellip; also dem ganzen Programm wie während der sogenannten Corona-Pandemie. Es wird genauso wie damals ablaufen - ganz bestimmt kommen wieder Lockdowns, &ldquo;Pandemie der Ungeimpften&rdquo;, Zwangsimpfung, Schulschließnugen, etc. Die Wunden aus der Coronazeit sind noch gar nicht verheilt, der Gedanke daran könnte Angst und Panik auslösen.  Was durchaus erwünscht ist. In Panik hört der Mensch zu denken auf, lässt sich leichter lenken und manipulieren.</p>
+<p>Meine Entscheidung - die Nachrichten darüber einfach so wenig wie möglich lesen. Kritische Medien konsumieren. Sachliche Informationen wie jene von Prof. Haditsch dienen sehr der Beruhigung. Danke, dass es solche Experten wie Herrn Haditsch gibt.</p>
+<h2 id="emacs-hugo-linux-dot-dot-dot">Emacs, Hugo, Linux, &hellip;</h2>
+<h3 id="wie-verändere-ich-die-schriftart-in-hugo">Wie verändere ich die Schriftart in Hugo?</h3>
+<p>Danach habe ich schon öfters gesucht, jedoch &hellip; Allein schon hier in Emacs kommt mir diese Schriftgröße (13) zu klein vor. Mit Schriftgröße 16 wird es viel besser.</p>
+<h3 id="letztes-update-auf-plasma-6-dot-6">Letztes Update auf Plasma 6.6</h3>
+<p>Wow - KDE Plasma ist durch das letzte Update so schön. Das Wallpaper ist cool.</p>
+<h2 id="references">References</h2>
+<div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Bamm, P. (1968): <i>Werke</i>. Berlin: Deutsche Buch-Gemeinschaft. <a href="https://doi.org/10.1515/9783110217933.579">https://doi.org/10.1515/9783110217933.579</a></div>
+</div>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Test Fußnote&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Test</title>
       <link>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</link>
       <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</guid>
-      <description>&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;&#xA;&lt;p&gt;macht Probleme, scheinbar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Mit etwas Text.&lt;/p&gt;</description>
+      <description>Ein Testeintrag.</description>
+      <content:encoded><![CDATA[<h2 id="github">Github</h2>
+<p>macht Probleme, scheinbar.</p>
+<h2 id="zweitens">Zweitens</h2>
+<p>Mit etwas Text.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Reise nach Wien</title>
       <link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link>
       <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid>
-      <description>&lt;h2 id=&#34;hinreise&#34;&gt;Hinreise&lt;/h2&gt;&#xA;&lt;p&gt;Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle &lt;code&gt;Hugo&lt;/code&gt; Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hotel&#34;&gt;Hotel&lt;/h2&gt;&#xA;&lt;p&gt;Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.&lt;/p&gt;</description>
+      <description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description>
+      <content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
+<p>Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle <code>Hugo</code> Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.</p>
+<h2 id="hotel">Hotel</h2>
+<p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
+<h2 id="wallfahrt-zu-sieben-kirchen">Wallfahrt zu sieben Kirchen</h2>
+<p>Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet um die sieben Gaben des Hl. Geistes.</p>
+<ul>
+<li>St. Rochus (extra: eucharistische Anbetung rund um die Uhr).</li>
+<li>Dominikaner</li>
+<li>Jesuiten</li>
+<li>Franziskaner</li>
+<li>Kapuziner</li>
+<li>Schotten</li>
+<li>Maria am Gestade</li>
+<li>Petruskirche</li>
+</ul>
+<p>Mittagessen mit Meli und Eisessen</p>
+<h2 id="zeit-mit-meli-und-otto">Zeit mit Meli und Otto</h2>
+<p>Abendessen und Kino am Freitag</p>
+<p>Mittagessen am Samstag</p>
+<h2 id="rückreise">Rückreise</h2>
+<p>Abfahrt 15h38 von Wien Westbahnhof, Ankunft um 18h08 in Salzburg.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Neuer Anfang mit dem Blog</title>
       <link>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</link>
       <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</guid>
-      <description>&lt;h2 id=&#34;problem-mit-email-adresse&#34;&gt;Problem mit Email Adresse&lt;/h2&gt;&#xA;&lt;p&gt;Die ursprüngliche Emailadresse für den Blog (nmsgolling.at) hat nicht funktioniert. Ich hatte keinen Zugang mehr.&lt;/p&gt;&#xA;&lt;p&gt;Also musste ich einen neuen Account mit einer anderen Adresse anlegen und die beiden Repos auf Github anlegen. Nach mehreren Versuchen hat es jetzt geklappt. Hoffentlich.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Mal schauen, was hier heraus kommt.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="problem-mit-email-adresse">Problem mit Email Adresse</h2>
+<p>Die ursprüngliche Emailadresse für den Blog (nmsgolling.at) hat nicht funktioniert. Ich hatte keinen Zugang mehr.</p>
+<p>Also musste ich einen neuen Account mit einer anderen Adresse anlegen und die beiden Repos auf Github anlegen. Nach mehreren Versuchen hat es jetzt geklappt. Hoffentlich.</p>
+<h2 id="zweitens">Zweitens</h2>
+<p>Mal schauen, was hier heraus kommt.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Endlich angekommen</title>
       <link>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</link>
       <pubDate>Fri, 24 Oct 2025 08:53:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</guid>
-      <description>&lt;h2 id=&#34;jedem-anfang-dot-dot-dot&#34;&gt;Jedem Anfang &amp;hellip;&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip; wohnt ein Zauber inne - sagte &lt;a href=&#34;https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/&#34;&gt;Hermann Hesse&lt;/a&gt;  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.&lt;/p&gt;&#xA;&lt;p&gt;Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schulen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="jedem-anfang-dot-dot-dot">Jedem Anfang &hellip;</h2>
+<p>&hellip; wohnt ein Zauber inne - sagte <a href="/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/">Hermann Hesse</a>  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.</p>
+<p>Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schulen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:</p>
+<p>An den beiden vorhergehenden Schulen zeigten die Schüler so gut wie keinen Respekt mir gegenüber; während der Pausenaufsicht haben an beiden Schulen die Kinder mir meinen Namen voller Verachtung hinterher gerufen: &ldquo;Herr Fuuuuuuchs!&rdquo;</p>
+<p>Auch in die schwierigen Klassen gehe ich mit einem guten Gefühl hinein; bin viel gelassener. Vor allem, weil es beiden Schulen Direktorinnen gibt, die &hellip; wie soll ich sagen? Ganz &ldquo;normal&rdquo; sind, entspannt, mich unterstützen, &hellip; Ich werde von ihnen nicht schikaniert, gemobbt, &hellip;</p>
+<p>Ich fahre wieder gerne in die Schule. Auch der Umstand, dass ich an <strong>zwei</strong> Schulen unterrichte, macht die Situation leichter. Der tägliche Wechsel nimmt der Arbeit viel von ihrem Stress. Ich sehe jeden Tag andere Kollegen, andere Schüler.</p>
+<h3 id="seekirchen">Seekirchen</h3>
+<p>Die SMS Seekirchen ist eine sehr gute Sport Mittelschule, die Schüler erzielen auf diesem Gebiet erstaunliche Leistungen. Vor Kurzem durfte ich beim Schullauf Zeuge davon sein. Die beiden schnellsten der Schule kommen aus einer dritten Klasse  und erreichten dabei eine Zeit von 5:19 Minuten (Strecke 1600m).</p>
+<figure class="border-2">
+    <img loading="lazy" src="/images/seekirchen.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Seekirchen am Wallersee
+        </figcaption>
+</figure>
+
+<p>Im kommenden Frühjahr werden wir mit Freude in den Neubau übersiedeln dürfen.</p>
+<h3 id="mattsee">Mattsee</h3>
+<p>Diese Schule gefällt mir immer besser. Vor allem die Schüler sind sehr nett - vor allem jene, die ich unterrichten darf.</p>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Mattsee.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Mattsee
+        </figcaption>
+</figure>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Caddy bye bye</title>
       <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
       <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
-      <description>&lt;h2 id=&#34;erinnerungen&#34;&gt;Erinnerungen&lt;/h2&gt;&#xA;&lt;p&gt;Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!&lt;/p&gt;&#xA;&lt;p&gt;Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&amp;rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &amp;hellip;&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
+<p>Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!</p>
+<p>Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;</p>
+<p>[Fotos einfügen]</p>
+<h2 id="kosten">Kosten</h2>
+<p>Die letzten Services wurden immer teurer; wir mussten jedes Mal zwischen 1000 und 1700 Euro bezahlen. So auch dieses Mal; deshalb haben wir uns doch mit ein bisschen Wehmut dazu entscheiden müssen, den Caddy zu verkaufen (950 Euro).</p>
+<h2 id="neues-auto">Neues Auto</h2>
+<p>Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.</p>
+<p>[Fotos einfügen]</p>
+<p>Ich habe spürbar Geld und Treibstoff gespart.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Neue Schule</title>
       <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
       <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://afterdarkblog.github.io/purple-gnu.jpg&#34; alt=&#34;Löwe&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mms-abtenau&#34;&gt;MMS Abtenau&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).&lt;/p&gt;&#xA;&lt;h2 id=&#34;wie-geht-es-weiter&#34;&gt;Wie geht es weiter?&lt;/h2&gt;&#xA;&lt;p&gt;Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p></p>
+<h2 id="mms-abtenau">MMS Abtenau</h2>
+<p>Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).</p>
+<h2 id="wie-geht-es-weiter">Wie geht es weiter?</h2>
+<p>Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Und jedem Anfang wohnt ein Zauber inne</title>
       <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
       <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
-      <description>&lt;h2 id=&#34;rückblick&#34;&gt;Rückblick&lt;/h2&gt;&#xA;&lt;p&gt;Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Innerer, geistlicher Kampf (der bis jetzt noch anhält)&lt;/li&gt;&#xA;&lt;li&gt;wenig Rückhalt von Seiten der Schulleitung&lt;/li&gt;&#xA;&lt;li&gt;mehrere, sehr &amp;ldquo;verhaltenskreative&amp;rdquo; Schüler&lt;/li&gt;&#xA;&lt;li&gt;Auswirkungen der Corona Jahre bei den Schülern, Lehrern, etc&lt;/li&gt;&#xA;&lt;li&gt;Antriebslosigkeit ganzer Klassen (nicht nur ich litt darunter; auch andere Kollegen)&lt;/li&gt;&#xA;&lt;li&gt;die Situation an der MS in der Stadt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Während des Schuljahres - es muss auf einer Heimfahrt von Hallein gewesen sein (also an einem Mittwoch) - rief mich meine Inspektorin an. Sie fragte mich, ob ich mir vorstellen könne, die Schule zu wechseln. Grundsätzlich sagte ich zu.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="rückblick">Rückblick</h2>
+<p>Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:</p>
+<ul>
+<li>Innerer, geistlicher Kampf (der bis jetzt noch anhält)</li>
+<li>wenig Rückhalt von Seiten der Schulleitung</li>
+<li>mehrere, sehr &ldquo;verhaltenskreative&rdquo; Schüler</li>
+<li>Auswirkungen der Corona Jahre bei den Schülern, Lehrern, etc</li>
+<li>Antriebslosigkeit ganzer Klassen (nicht nur ich litt darunter; auch andere Kollegen)</li>
+<li>die Situation an der MS in der Stadt</li>
+</ul>
+<p>Während des Schuljahres - es muss auf einer Heimfahrt von Hallein gewesen sein (also an einem Mittwoch) - rief mich meine Inspektorin an. Sie fragte mich, ob ich mir vorstellen könne, die Schule zu wechseln. Grundsätzlich sagte ich zu.</p>
+<p>Und Schritt für Schritt wurde der Wechsel in die Wege geleitet. Ich war dann doch sehr erstaunt, wie wenig Rückhalt ich daraufhin von meinen Kollegen erhielt. Sie erzählten mir von den &ldquo;ach so schlimmen Schülern&rdquo; an meiner zukünftigen Schule. &ldquo;Du wirst schon sehen, wie arg die Kinder dort sind und dich nach uns zurücksehnen!&rdquo; &ldquo;Die Schule ist eine Bruchbude! Schrecklich!&rdquo; &ldquo;Die Direktorin dort verlangt sehr viel! Du wirst das niemals schaffen!&rdquo;</p>
+<p>Einerseits verstand ich ihre Reaktionen - sie wollten mich überreden zu bleiben; andererseits war ich doch betrübt, dass mir nur sehr wenige (nur zwei) Mut machten. Ihre Trauer über meinen Wechsel nahm ich ihnen ab.</p>
+<h2 id="neuer-beginn">Neuer Beginn</h2>
+<p>Je näher der konkrete Wechsel und Neubeginn kam, desto aufgeregter wurde ich. Am Freitag der letzten Ferienwoche war dann die Begrüßung an der neuen Schule. Diese kurze Zeit verlief sehr gut. Der allererste Tag, Montag <span class="timestamp-wrapper"><span class="timestamp">&lt;2024-09-09 Mo&gt;</span></span>, war sehr anstrengend für mich (emotional und auch sonst): früh aufstehen, längerer Arbeitsweg, &hellip; und schließlich die sehr lange Konferenz.</p>
+<p>Der nächste Tag: meine ersten beiden Stunden, und dann der Gottesdienst. Diese Feier war wirklich wunderschön! Am Mittwoch entfiel meine einzige Stunde dieses Tages, was mir sehr gelegen kam. Donnerstag und Freitag verliefen sehr gut. Am Freitag Nachmittag war ich dann so müde, dass ich bis halb sechs am Abend schlief.</p>
+<p>Und nun stehe ich vor meiner ersten vollen Woche an dieser mir neuen Schule.</p>
+<p>Ich spüre den höheren Anspruch an den RU - und ich weiß, dass ich volle Unterstützung durch die Schulleitung habe. Das ist auch gut so. Ich darf neue Aufgaben übernehmen (Gitarre Unterricht), neue Methoden kennenlernen (&ldquo;Lernschiene&rdquo;). Und die Schüler sind nicht viel anders wie an meiner alten Schule; aber eines sind sie nicht: fad und &ldquo;Null Bock&rdquo; - das habe ich nicht gesehen. Und das macht einen großen Unterschied.</p>
+<h2 id="geistlicher-kampf">Geistlicher Kampf</h2>
+<p>Das ist mein aktuelles Thema; leider werde ich manchmal von dunklen Gedanken übermannt und gehe gegen &ldquo;meinen&rdquo; Glauben vor, mache Jesus Vorwürfe; ich meine, der Glaube und die Hingabe an IHN mache keinen Sinn. Wo sei denn nun dieses versprochene &ldquo;Leben in Fülle&rdquo; (Joh 10)? Natürlich hat der finstere Geselle von unten ein großes Interesse daran, mich vom Glauben abzubringen. Da heißt es aufmerksam zu sein.</p>
+<p>Was kann ich tun? Wahrscheinlich selbst nicht viel, nur Jesus kann diesen Dämon besiegen. Doch kann ich meinen Teil dazu beitragen, meinen Glauben zu stärken - Bibel lesen, gute Literatur, Gebet, Sakramente, Gespräche mit Priestern, &hellip;</p>
+<h2 id="gedicht-von-hermann-hesse">Gedicht von Hermann Hesse</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Stufen
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Wie jede Blüte welkt und jede Jugend
+</span></span><span style="display:flex;"><span>Dem Alter weicht, blüht jede Lebensstufe,
+</span></span><span style="display:flex;"><span>Blüht jede Weisheit auch und jede Tugend
+</span></span><span style="display:flex;"><span>Zu ihrer Zeit und darf nicht ewig dauern.
+</span></span><span style="display:flex;"><span>Es muß das Herz bei jedem Lebensrufe
+</span></span><span style="display:flex;"><span>Bereit zum Abschied sein und Neubeginne,
+</span></span><span style="display:flex;"><span>Um sich in Tapferkeit und ohne Trauern
+</span></span><span style="display:flex;"><span>In andre, neue Bindungen zu geben.
+</span></span><span style="display:flex;"><span>Und jedem Anfang wohnt ein Zauber inne,
+</span></span><span style="display:flex;"><span>Der uns beschützt und der uns hilft, zu leben.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Wir sollen heiter Raum um Raum durchschreiten,
+</span></span><span style="display:flex;"><span>An keinem wie an einer Heimat hängen,
+</span></span><span style="display:flex;"><span>Der Weltgeist will nicht fesseln uns und engen,
+</span></span><span style="display:flex;"><span>Er will uns Stuf‘ um Stufe heben, weiten.
+</span></span><span style="display:flex;"><span>Kaum sind wir heimisch einem Lebenskreise
+</span></span><span style="display:flex;"><span>Und traulich eingewohnt, so droht Erschlaffen,
+</span></span><span style="display:flex;"><span>Nur wer bereit zu Aufbruch ist und Reise,
+</span></span><span style="display:flex;"><span>Mag lähmender Gewöhnung sich entraffen.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Es wird vielleicht auch noch die Todesstunde
+</span></span><span style="display:flex;"><span>Uns neuen Räumen jung entgegen senden,
+</span></span><span style="display:flex;"><span>Des Lebens Ruf an uns wird niemals enden…
+</span></span><span style="display:flex;"><span>Wohlan denn, Herz, nimm Abschied und gesunde!
+</span></span><span style="display:flex;"><span>(4. Mai 1941)
+</span></span></code></pre></div>]]></content:encoded>
     </item>
+    
     <item>
       <title>Was gibt es Neues</title>
       <link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid>
-      <description>&lt;h2 id=&#34;privat&#34;&gt;Privat&lt;/h2&gt;&#xA;&lt;p&gt;Zuhause erfahren wir neue Herausforderungen in der Erziehung der Kinder. Gabriel tritt in die Pubertät ein. Sagt prinzipiell zu allem &amp;ldquo;Nein&amp;rdquo;; und in der Schule lässt er nach einem ausgezeichneten ersten Semester etwas nach. Gabriel ist wohl in der Phase zu mehr Selbständigkeit. Loslassen können ist schwer; die Kunst besteht darin, dies nicht aus (persönlicher) Enttäuschung zu tun, sondern zum Wohl des Kindes. Gerade in diesem Alter ist der Schritt zur Selbständigkeit so wichtig. Gabriel tut sich dabei besonders schwer.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="privat">Privat</h2>
+<p>Zuhause erfahren wir neue Herausforderungen in der Erziehung der Kinder. Gabriel tritt in die Pubertät ein. Sagt prinzipiell zu allem &ldquo;Nein&rdquo;; und in der Schule lässt er nach einem ausgezeichneten ersten Semester etwas nach. Gabriel ist wohl in der Phase zu mehr Selbständigkeit. Loslassen können ist schwer; die Kunst besteht darin, dies nicht aus (persönlicher) Enttäuschung zu tun, sondern zum Wohl des Kindes. Gerade in diesem Alter ist der Schritt zur Selbständigkeit so wichtig. Gabriel tut sich dabei besonders schwer.</p>
+<p>Wir werden ihn nie fallen lassen; Schritt für Schritt soll er diesen steilen Weg gehen. Er schafft dies bestimmt. Besonders Kinder wie Gabriel werden später zu großartigen Persönlichkeiten. Zu leicht lassen wir uns von Gabriel&rsquo;s Scheitern, Unzulänglichkeiten, etc täuschen, geben auf. Entscheidungen sollen niemals aus dem Affekt heraus getroffen werden - und diese Versuchung ist groß. Wie schnell ist man als Papa oder Mama enttäuscht &hellip;</p>
+<p>Leopold geht einen ganz anderen Weg - ist in der ersten Klasse VS selbständig. Im Lernen und Erledigen der HÜ ist er sehr gewissenhaft, genau und wird immer schneller. Seine Schwäche ist der Zorn; da können die &ldquo;Pferde&rdquo; schnell einmal mit ihm durchgehen. Diese zu zügeln ist die große Aufgabe und Herausforderung für Leopold.</p>
+<h2 id="familienrat">Familienrat</h2>
+<p>Aus all diesen Erfahrungen heraus haben wir entschieden, uns am Sonntag für einen ersten Familienrat zu treffen. Jeder soll den anderen ein Kompliment sagen - und einen Punkt, in dem er selbst sich verbessern möchte. Bin sehr gespannt; hoffentlich kann dies auch das Verhältnis zwischen den Brüdern befrieden.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Blogeinträge mit Denote und Hugo</title>
       <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
-      <description>&lt;h2 id=&#34;denote&#34;&gt;Denote&lt;/h2&gt;&#xA;&lt;p&gt;Hier erkläre ich meinen Workflow in &lt;code&gt;org-mode&lt;/code&gt; und &lt;code&gt;denote&lt;/code&gt; für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c n t&lt;/code&gt; (&lt;code&gt;denote-template&lt;/code&gt;) &amp;ldquo;post&amp;rdquo;-Template&lt;/li&gt;&#xA;&lt;li&gt;Titel eingeben&lt;/li&gt;&#xA;&lt;li&gt;automatisches filetags: hugo&lt;/li&gt;&#xA;&lt;li&gt;Keywords: hugo&lt;/li&gt;&#xA;&lt;li&gt;Hugo-Categories: nur &lt;strong&gt;eine&lt;/strong&gt; Kategorie eintragen&lt;/li&gt;&#xA;&lt;li&gt;Blogtext schreiben&lt;/li&gt;&#xA;&lt;li&gt;save file&lt;/li&gt;&#xA;&lt;li&gt;export to hugo: &lt;code&gt;C-c C-e H H&lt;/code&gt; (export to HUGO markdown file)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c C-e H o&lt;/code&gt; (export to Hugo Markdown and open)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git-magit&#34;&gt;Git / magit&lt;/h2&gt;&#xA;&lt;h3 id=&#34;workflow-in-git&#34;&gt;Workflow in Git&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo server -D&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## Kontrolle; startet lokalen Server&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ Crtl-C &#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## lokalen Server beenden&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo                              &lt;span style=&#34;color:#75715e&#34;&gt;## Website in /public erstellen&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git add .&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## git-Befehle, auch im /public directory eingeben&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;einen commit schreiben&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git push -u origin main&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;magit-befehle&#34;&gt;&lt;code&gt;magit&lt;/code&gt; Befehle&lt;/h3&gt;&#xA;&lt;p&gt;Voher in &lt;code&gt;eshell&lt;/code&gt; die &lt;code&gt;Hugo&lt;/code&gt; Befehle eingeben.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="denote">Denote</h2>
+<p>Hier erkläre ich meinen Workflow in <code>org-mode</code> und <code>denote</code> für meine persönlichen Blog &ldquo;After Dark&rdquo;.</p>
+<ul>
+<li><code>C-c n t</code> (<code>denote-template</code>) &ldquo;post&rdquo;-Template</li>
+<li>Titel eingeben</li>
+<li>automatisches filetags: hugo</li>
+<li>Keywords: hugo</li>
+<li>Hugo-Categories: nur <strong>eine</strong> Kategorie eintragen</li>
+<li>Blogtext schreiben</li>
+<li>save file</li>
+<li>export to hugo: <code>C-c C-e H H</code> (export to HUGO markdown file)</li>
+<li><code>C-c C-e H o</code> (export to Hugo Markdown and open)</li>
+</ul>
+<h2 id="git-magit">Git / magit</h2>
+<h3 id="workflow-in-git">Workflow in Git</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hugo server -D			<span style="color:#75715e">## Kontrolle; startet lokalen Server</span>
+</span></span><span style="display:flex;"><span>$ Crtl-C 				<span style="color:#75715e">## lokalen Server beenden</span>
+</span></span><span style="display:flex;"><span>$ hugo                              <span style="color:#75715e">## Website in /public erstellen</span>
+</span></span><span style="display:flex;"><span>$ git add .				<span style="color:#75715e">## git-Befehle, auch im /public directory eingeben</span>
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;einen commit schreiben&#34;</span>
+</span></span><span style="display:flex;"><span>$ git push -u origin main
+</span></span></code></pre></div><h3 id="magit-befehle"><code>magit</code> Befehle</h3>
+<p>Voher in <code>eshell</code> die <code>Hugo</code> Befehle eingeben.</p>
+<ul>
+<li><code>M-x magit</code></li>
+<li><code>s s</code> (stage)</li>
+<li><code>c c</code> (commit) end with: <code>C-c C-c</code></li>
+<li><code>m m</code> (merge)</li>
+<li><code>P p</code> (push)</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Doom Emacs vs Spacemacs vs Emacs</title>
       <link>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</link>
       <pubDate>Mon, 23 Oct 2023 10:24:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid>
-      <description>&lt;h2 id=&#34;doom-emacs-plus-spacemacs&#34;&gt;Doom Emacs + Spacemacs&lt;/h2&gt;&#xA;&lt;p&gt;Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Daher bleibe ich bei &amp;ldquo;meinem&amp;rdquo; Emacs.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="doom-emacs-plus-spacemacs">Doom Emacs + Spacemacs</h2>
+<p>Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.</p>
+<h2 id="zweitens">Zweitens</h2>
+<p>Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Was gibt es Neues</title>
       <link>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</link>
       <pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
-      <description>&lt;h2 id=&#34;schule&#34;&gt;Schule&lt;/h2&gt;&#xA;&lt;p&gt;Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.&lt;/p&gt;&#xA;&lt;p&gt;Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="schule">Schule</h2>
+<p>Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.</p>
+<p>Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.</p>
+<p>Natürlich bedeutet dies ein wenig an finanziellen Einbußen. Vielmehr jedoch schmerzt das für die Moral - so viel Hingabe - kaum Retour. Im Gegenteil: alle Schüler vom vorigen Jahr haben sich abgemeldet. Das tut weh. Das spürt man keine Anerkennung, Dankbarkeit, &hellip; was bleibt ist der Fade Geschmack von Gleichgültigkeit. Viele Christen werden oder sind gleichgültig.</p>
+<h2 id="jesus">Jesus</h2>
+<p>Mein geistliches Leben bedarf dringend einer Neuorientierung und Vertiefung, sonst verhungere ich innerlich. Mehr Gebet, intensiveres Gebet, Bibellesen; geistliche Lektüre (B16, Romano Guardini, etc. - in meiner Bibliothek wimmelt es von guten Büchern).</p>
+<h2 id="update">Update</h2>
+<p>Wie schnell kann es gehen, und unsere Welt kann sich &ldquo;ändern&rdquo;. Gestern noch war ich in Sorge um unsere finanzielle Situation. Und heute hat mich unsere Direktorin während des Unterrichts herausgeholt und mir eine freudige Nachricht überbracht. Frau Steinberger (Schulreferentin für Hallein) hat für mich eine Stunde in einer Volksschule gefunden: GTS, am Mittwoch von 13h55-14h45.</p>
+<p>Was zeigt mir das? Wenn ich meine Situation in Gottes Hände lege (und in jene meiner Vorgesetzten), dann wendet es sich zum Guten (vgl Römerbrief).</p>
+<p>Mittlerweile sitze ich in der Kletterhalle Salzburg Nord und schreibe diesen Text. Gabriel beginnt seinen Kletterkurs in diesem Schuljahr. Leider hat Gabriel wieder einmal Schulmaterial vergessen und musste es in der Schule holen fahren. Ich hoffe, er bemüht sich in Zukunft besser, und bringt das nötige &ldquo;Zeug&rdquo; nach Hause.</p>
+<p>Aber eigentlich hat dieses Schuljahr für Gabriel wesentlich positiver begonnen als das erste Schuljahr in der MS.</p>
+<h2 id="wie-kann-ich-den-copyright-eintrag-in-jedem-post-ändern">Wie kann ich den Copyright-Eintrag in jedem Post ändern?</h2>
+<p>Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei <code>~/flying-toasters/config.toml</code> geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.</p>
+<p>So, jetzt wird dieser Eintrag gepostet.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Neuer Post</title>
       <link>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</link>
       <pubDate>Mon, 24 Jul 2023 00:26:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</guid>
-      <description>&lt;h2 id=&#34;erstens&#34;&gt;Erstens&lt;/h2&gt;&#xA;&lt;p&gt;Wir haben uns heute Avatar Teil 2 angeschaut.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+<p>Wir haben uns heute Avatar Teil 2 angeschaut.</p>
+<h2 id="zweitens">Zweitens</h2>
+<p>Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Denote Hugo 2</title>
       <link>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</link>
       <pubDate>Sat, 22 Jul 2023 15:44:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</guid>
-      <description>&lt;h2 id=&#34;erstens&#34;&gt;Erstens&lt;/h2&gt;&#xA;&lt;p&gt;Ich probiere die `#+hugo_categories:` aus.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;p&gt;schau ma mal&amp;hellip;&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+<p>Ich probiere die `#+hugo_categories:` aus.</p>
+<h2 id="zweitens">Zweitens</h2>
+<p>schau ma mal&hellip;</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Denote Hugo</title>
       <link>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</link>
       <pubDate>Sat, 22 Jul 2023 00:33:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</guid>
-      <description>&lt;p&gt;Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.&lt;/p&gt;&#xA;&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;&#xA;&lt;p&gt;Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.&lt;/p&gt;&#xA;&lt;h2 id=&#34;org-mode&#34;&gt;org-mode&lt;/h2&gt;&#xA;&lt;p&gt;Deshalb bleibe ich  bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &amp;hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.</p>
+<h2 id="markdown">Markdown</h2>
+<p>Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.</p>
+<h2 id="org-mode">org-mode</h2>
+<p>Deshalb bleibe ich  bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Fünfter Eintrag</title>
       <link>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</link>
       <pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
-      <description>&lt;h2 id=&#34;erstens&#34;&gt;Erstens&lt;/h2&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+<h2 id="zweitens">Zweitens</h2>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>dritter Eintrag</title>
       <link>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</link>
       <pubDate>Fri, 21 Jul 2023 15:41:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</guid>
-      <description>&lt;p&gt;So diesmal hab ich im Header des Files &amp;ldquo;Author&amp;rdquo; hinzugefügt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;erstens&#34;&gt;Erstens&lt;/h2&gt;&#xA;&lt;p&gt;Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.&lt;/p&gt;&#xA;&lt;h2 id=&#34;zweitens&#34;&gt;Zweitens&lt;/h2&gt;&#xA;&lt;h2 id=&#34;drittens&#34;&gt;Drittens&lt;/h2&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p>So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.</p>
+<h2 id="erstens">Erstens</h2>
+<p>Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.</p>
+<h2 id="zweitens">Zweitens</h2>
+<h2 id="drittens">Drittens</h2>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Zweiter Eintrag heute</title>
       <link>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</link>
       <pubDate>Fri, 21 Jul 2023 09:07:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</guid>
-      <description>&lt;p&gt;Hier schreibe ich weiter.&lt;/p&gt;&#xA;&lt;h2 id=&#34;eine-erste-überschrift&#34;&gt;eine erste Überschrift&lt;/h2&gt;&#xA;&lt;p&gt;mit ihrem Text&lt;/p&gt;&#xA;&lt;h2 id=&#34;und-eine-weitere&#34;&gt;und eine weitere&lt;/h2&gt;&#xA;&lt;p&gt;und so weiter&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hier schreibe ich weiter.&lt;/p&gt;
+&lt;h2 id=&#34;eine-erste-überschrift&#34;&gt;eine erste Überschrift&lt;/h2&gt;
+&lt;p&gt;mit ihrem Text&lt;/p&gt;
+&lt;h2 id=&#34;und-eine-weitere&#34;&gt;und eine weitere&lt;/h2&gt;
+&lt;p&gt;und so weiter&amp;hellip;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hier schreibe ich weiter.</p>
+<h2 id="eine-erste-überschrift">eine erste Überschrift</h2>
+<p>mit ihrem Text</p>
+<h2 id="und-eine-weitere">und eine weitere</h2>
+<p>und so weiter&hellip;</p>
+]]></content:encoded>
     </item>
-    <item>
-      <title>About</title>
-      <link>https://afterdarkblog.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://afterdarkblog.github.io/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Put Content Some Content About YourSelf On This Page&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://afterdarkblog.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://afterdarkblog.github.io/search/</guid>
-      <description></description>
-    </item>
+    
   </channel>
 </rss>

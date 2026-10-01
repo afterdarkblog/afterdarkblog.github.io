@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Denote on After Dark</title>
     <link>https://afterdarkblog.github.io/categories/denote/</link>
     <description>Recent content in Denote on After Dark</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html).</copyright>
-    <lastBuildDate>Thu, 25 Apr 2024 14:22:55 +0200</lastBuildDate>
-    <atom:link href="https://afterdarkblog.github.io/categories/denote/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://gnu.org).</copyright>
+    <lastBuildDate>Thu, 25 Apr 2024 09:22:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/denote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogeinträge mit Denote und Hugo</title>
       <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
       <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
+      
       <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
-      <description>&lt;h2 id=&#34;denote&#34;&gt;Denote&lt;/h2&gt;&#xA;&lt;p&gt;Hier erkläre ich meinen Workflow in &lt;code&gt;org-mode&lt;/code&gt; und &lt;code&gt;denote&lt;/code&gt; für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c n t&lt;/code&gt; (&lt;code&gt;denote-template&lt;/code&gt;) &amp;ldquo;post&amp;rdquo;-Template&lt;/li&gt;&#xA;&lt;li&gt;Titel eingeben&lt;/li&gt;&#xA;&lt;li&gt;automatisches filetags: hugo&lt;/li&gt;&#xA;&lt;li&gt;Keywords: hugo&lt;/li&gt;&#xA;&lt;li&gt;Hugo-Categories: nur &lt;strong&gt;eine&lt;/strong&gt; Kategorie eintragen&lt;/li&gt;&#xA;&lt;li&gt;Blogtext schreiben&lt;/li&gt;&#xA;&lt;li&gt;save file&lt;/li&gt;&#xA;&lt;li&gt;export to hugo: &lt;code&gt;C-c C-e H H&lt;/code&gt; (export to HUGO markdown file)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C-c C-e H o&lt;/code&gt; (export to Hugo Markdown and open)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git-magit&#34;&gt;Git / magit&lt;/h2&gt;&#xA;&lt;h3 id=&#34;workflow-in-git&#34;&gt;Workflow in Git&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo server -D&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## Kontrolle; startet lokalen Server&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ Crtl-C &#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## lokalen Server beenden&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo                              &lt;span style=&#34;color:#75715e&#34;&gt;## Website in /public erstellen&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git add .&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;## git-Befehle, auch im /public directory eingeben&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;einen commit schreiben&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git push -u origin main&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;magit-befehle&#34;&gt;&lt;code&gt;magit&lt;/code&gt; Befehle&lt;/h3&gt;&#xA;&lt;p&gt;Voher in &lt;code&gt;eshell&lt;/code&gt; die &lt;code&gt;Hugo&lt;/code&gt; Befehle eingeben.&lt;/p&gt;</description>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="denote">Denote</h2>
+<p>Hier erkläre ich meinen Workflow in <code>org-mode</code> und <code>denote</code> für meine persönlichen Blog &ldquo;After Dark&rdquo;.</p>
+<ul>
+<li><code>C-c n t</code> (<code>denote-template</code>) &ldquo;post&rdquo;-Template</li>
+<li>Titel eingeben</li>
+<li>automatisches filetags: hugo</li>
+<li>Keywords: hugo</li>
+<li>Hugo-Categories: nur <strong>eine</strong> Kategorie eintragen</li>
+<li>Blogtext schreiben</li>
+<li>save file</li>
+<li>export to hugo: <code>C-c C-e H H</code> (export to HUGO markdown file)</li>
+<li><code>C-c C-e H o</code> (export to Hugo Markdown and open)</li>
+</ul>
+<h2 id="git-magit">Git / magit</h2>
+<h3 id="workflow-in-git">Workflow in Git</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hugo server -D			<span style="color:#75715e">## Kontrolle; startet lokalen Server</span>
+</span></span><span style="display:flex;"><span>$ Crtl-C 				<span style="color:#75715e">## lokalen Server beenden</span>
+</span></span><span style="display:flex;"><span>$ hugo                              <span style="color:#75715e">## Website in /public erstellen</span>
+</span></span><span style="display:flex;"><span>$ git add .				<span style="color:#75715e">## git-Befehle, auch im /public directory eingeben</span>
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;einen commit schreiben&#34;</span>
+</span></span><span style="display:flex;"><span>$ git push -u origin main
+</span></span></code></pre></div><h3 id="magit-befehle"><code>magit</code> Befehle</h3>
+<p>Voher in <code>eshell</code> die <code>Hugo</code> Befehle eingeben.</p>
+<ul>
+<li><code>M-x magit</code></li>
+<li><code>s s</code> (stage)</li>
+<li><code>c c</code> (commit) end with: <code>C-c C-c</code></li>
+<li><code>m m</code> (merge)</li>
+<li><code>P p</code> (push)</li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>
