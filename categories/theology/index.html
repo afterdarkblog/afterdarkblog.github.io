@@ -126,7 +126,7 @@ function toggleThemeListener() {
 <script>
   
   (function() {
-    const defaultTheme = 'auto';
+    const defaultTheme = 'light';
     const prefTheme = getPrefTheme();
     const theme = prefTheme ? prefTheme : defaultTheme;
 
@@ -267,6 +267,33 @@ function toggleThemeListener() {
 
     
 
+
+<script>
+    
+    document.addEventListener("click", function(e) {
+        
+        const target = e.target.closest("#moon, #sun");
+
+        if (target) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            
+            if (document.body.classList.contains("dark")) {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            } else {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            }
+        }
+    }, true);
+
+    
+    const themeStyle = document.createElement('style');
+    themeStyle.innerHTML = '#moon, #sun { cursor: pointer !important; pointer-events: auto !important; }';
+    document.head.appendChild(themeStyle);
+</script>
 
 </body>
 
