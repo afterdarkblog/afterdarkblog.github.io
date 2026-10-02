@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Privat on After Dark</title>
-    <link>https://afterdarkblog.github.io/categories/privat/</link>
-    <description>Recent content in Privat on After Dark</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
-    <lastBuildDate>Sat, 02 May 2026 15:51:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/privat/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reise nach Wien</title>
-      <link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link>
-      <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
-      
-      <guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid>
-      <description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description>
-      <content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Privat on After Dark</title><link>https://afterdarkblog.github.io/categories/privat/</link><description>Recent content in Privat on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sat, 02 May 2026 15:51:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/privat/index.xml" rel="self" type="application/rss+xml"/><item><title>Reise nach Wien</title><link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link><pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid><description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description><content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
 <p>Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle <code>Hugo</code> Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.</p>
 <h2 id="hotel">Hotel</h2>
 <p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
@@ -36,17 +20,7 @@
 <p>Mittagessen am Samstag</p>
 <h2 id="rückreise">Rückreise</h2>
 <p>Abfahrt 15h38 von Wien Westbahnhof, Ankunft um 18h08 in Salzburg.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Caddy bye bye</title>
-      <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
-      <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
-      
-      <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
-      <content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
+]]></content:encoded></item><item><title>Caddy bye bye</title><link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link><pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
 <p>Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!</p>
 <p>Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;</p>
 <p>[Fotos einfügen]</p>
@@ -56,8 +30,4 @@
 <p>Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.</p>
 <p>[Fotos einfügen]</p>
 <p>Ich habe spürbar Geld und Treibstoff gespart.</p>
-]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

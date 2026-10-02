@@ -1,35 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Schule on After Dark</title>
-    <link>https://afterdarkblog.github.io/categories/schule/</link>
-    <description>Recent content in Schule on After Dark</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
-    <lastBuildDate>Tue, 11 Mar 2025 09:20:00 +0100</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/schule/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Neue Schule</title>
-      <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
-      <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
-      
-      <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/purple-gnu.jpg" type="" alt="Löwe"  /></p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Schule on After Dark</title><link>https://afterdarkblog.github.io/categories/schule/</link><description>Recent content in Schule on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Tue, 11 Mar 2025 09:20:00 +0100</lastBuildDate><atom:link href="https://afterdarkblog.github.io/categories/schule/index.xml" rel="self" type="application/rss+xml"/><item><title>Neue Schule</title><link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link><pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate><guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/purple-gnu.jpg" type="" alt="Löwe"  /></p>
 <h2 id="mms-abtenau">MMS Abtenau</h2>
 <p>Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).</p>
 <h2 id="wie-geht-es-weiter">Wie geht es weiter?</h2>
 <p>Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Und jedem Anfang wohnt ein Zauber inne</title>
-      <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
-      <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
-      
-      <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
-      <description>This text was generated using the After Dark post archetype.</description>
-      <content:encoded><![CDATA[<h2 id="rückblick">Rückblick</h2>
+]]></content:encoded></item><item><title>Und jedem Anfang wohnt ein Zauber inne</title><link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link><pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="rückblick">Rückblick</h2>
 <p>Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:</p>
 <ul>
 <li>Innerer, geistlicher Kampf (der bis jetzt noch anhält)</li>
@@ -78,8 +52,4 @@
 </span></span><span style="display:flex;"><span>Des Lebens Ruf an uns wird niemals enden…
 </span></span><span style="display:flex;"><span>Wohlan denn, Herz, nimm Abschied und gesunde!
 </span></span><span style="display:flex;"><span>(4. Mai 1941)
-</span></span></code></pre></div>]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
