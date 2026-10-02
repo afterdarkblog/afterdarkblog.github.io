@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>After Dark</title><link>https://afterdarkblog.github.io/</link><description>Recent content on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Tue, 05 May 2026 18:12:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Suche nach Wahrheit</title><link>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</link><pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</guid><description>Über das Gute, Wahre und Schöne.</description><content:encoded><![CDATA[<h2 id="die-kunst-der-erziehung">Die Kunst der Erziehung</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>After Dark</title>
+    <link>https://afterdarkblog.github.io/</link>
+    <description>Recent content on After Dark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 05 May 2026 18:12:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suche nach Wahrheit</title>
+      <link>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</link>
+      <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20260505t181237--suche-nach-wahrheit__privat/</guid>
+      <description>Über das Gute, Wahre und Schöne.</description>
+      <content:encoded><![CDATA[<h2 id="die-kunst-der-erziehung">Die Kunst der Erziehung</h2>
 <p>Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (<a href="#citeproc_bib_item_1">Bamm, 1968</a>)</p>
 <h3 id="wie-reagieren-bei-dot-dot-dot">Wie reagieren bei &hellip;</h3>
 <p>Hilft schimpfen? Wohl kaum, oder? Und trotzdem sollen Grenzen gesetzt werden. Oder sind wir dann wieder beim Gehorsam? Aber Grenzen geben doch Sicherheit, zeigen dass nicht alles erlaubt ist; wie soll das Kind Respekt lernen? Wenn ich selbst respektvoll mit Kindern umgehe. Andererseits darf ich Kinder nicht wie kleine Erwachsene behandeln, sie aufs Podest heben, &hellip; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
@@ -47,11 +63,31 @@
 </li>
 </ol>
 </div>
-]]></content:encoded></item><item><title>Test</title><link>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</link><pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</guid><description>Ein Testeintrag.</description><content:encoded><![CDATA[<h2 id="github">Github</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</link>
+      <pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</guid>
+      <description>Ein Testeintrag.</description>
+      <content:encoded><![CDATA[<h2 id="github">Github</h2>
 <p>macht Probleme, scheinbar.</p>
 <h2 id="zweitens">Zweitens</h2>
 <p>Mit etwas Text.</p>
-]]></content:encoded></item><item><title>Reise nach Wien</title><link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link><pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid><description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description><content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Reise nach Wien</title>
+      <link>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</link>
+      <pubDate>Sat, 02 May 2026 15:51:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20260502t155127--reise-nach-wien__privat/</guid>
+      <description>Mit Gabriel in Wien, Besuch bei Meli und Otto.</description>
+      <content:encoded><![CDATA[<h2 id="hinreise">Hinreise</h2>
 <p>Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle <code>Hugo</code> Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.</p>
 <h2 id="hotel">Hotel</h2>
 <p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
@@ -73,12 +109,32 @@
 <p>Mittagessen am Samstag</p>
 <h2 id="rückreise">Rückreise</h2>
 <p>Abfahrt 15h38 von Wien Westbahnhof, Ankunft um 18h08 in Salzburg.</p>
-]]></content:encoded></item><item><title>Neuer Anfang mit dem Blog</title><link>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</link><pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="problem-mit-email-adresse">Problem mit Email Adresse</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Neuer Anfang mit dem Blog</title>
+      <link>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</link>
+      <pubDate>Thu, 30 Apr 2026 14:41:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20260430t144122--neuer-anfang-mit-dem-blog__emacs/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="problem-mit-email-adresse">Problem mit Email Adresse</h2>
 <p>Die ursprüngliche Emailadresse für den Blog (nmsgolling.at) hat nicht funktioniert. Ich hatte keinen Zugang mehr.</p>
 <p>Also musste ich einen neuen Account mit einer anderen Adresse anlegen und die beiden Repos auf Github anlegen. Nach mehreren Versuchen hat es jetzt geklappt. Hoffentlich.</p>
 <h2 id="zweitens">Zweitens</h2>
 <p>Mal schauen, was hier heraus kommt.</p>
-]]></content:encoded></item><item><title>Endlich angekommen</title><link>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</link><pubDate>Fri, 24 Oct 2025 08:53:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="jedem-anfang-dot-dot-dot">Jedem Anfang &hellip;</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Endlich angekommen</title>
+      <link>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</link>
+      <pubDate>Fri, 24 Oct 2025 08:53:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20251024t085316--endlich-angekommen__schule/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="jedem-anfang-dot-dot-dot">Jedem Anfang &hellip;</h2>
 <p>&hellip; wohnt ein Zauber inne - sagte <a href="/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/">Hermann Hesse</a>  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.</p>
 <p>Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schulen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:</p>
 <p>An den beiden vorhergehenden Schulen zeigten die Schüler so gut wie keinen Respekt mir gegenüber; während der Pausenaufsicht haben an beiden Schulen die Kinder mir meinen Namen voller Verachtung hinterher gerufen: &ldquo;Herr Fuuuuuuchs!&rdquo;</p>
@@ -103,7 +159,17 @@
         </figcaption>
 </figure>
 
-]]></content:encoded></item><item><title>Caddy bye bye</title><link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link><pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Caddy bye bye</title>
+      <link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link>
+      <pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
 <p>Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!</p>
 <p>Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;</p>
 <p>[Fotos einfügen]</p>
@@ -113,12 +179,32 @@
 <p>Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.</p>
 <p>[Fotos einfügen]</p>
 <p>Ich habe spürbar Geld und Treibstoff gespart.</p>
-]]></content:encoded></item><item><title>Neue Schule</title><link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link><pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate><guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/purple-gnu.jpg" type="" alt="Löwe"  /></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Neue Schule</title>
+      <link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link>
+      <pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/purple-gnu.jpg" type="" alt="Löwe"  /></p>
 <h2 id="mms-abtenau">MMS Abtenau</h2>
 <p>Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).</p>
 <h2 id="wie-geht-es-weiter">Wie geht es weiter?</h2>
 <p>Dieser Blogeintrag ist eigentlich auch nur ein Test, ob der Blog immer noch funktioniert.</p>
-]]></content:encoded></item><item><title>Und jedem Anfang wohnt ein Zauber inne</title><link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link><pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="rückblick">Rückblick</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Und jedem Anfang wohnt ein Zauber inne</title>
+      <link>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</link>
+      <pubDate>Sun, 15 Sep 2024 19:42:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20240915t194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="rückblick">Rückblick</h2>
 <p>Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionslehrer dienen. Wie es dazu kam - das hat eine längere Geschichte. Das vergangene Schuljahr war für mich wohl eines des mühevollsten überhaupt. Bis jetzt weiß ich noch immer nicht, woran es lag. Dafür sind sicher mehrere Faktoren verantwortlich. Ohne vollständig zu sein zähle ich hier einige auf:</p>
 <ul>
 <li>Innerer, geistlicher Kampf (der bis jetzt noch anhält)</li>
@@ -167,13 +253,33 @@
 </span></span><span style="display:flex;"><span>Des Lebens Ruf an uns wird niemals enden…
 </span></span><span style="display:flex;"><span>Wohlan denn, Herz, nimm Abschied und gesunde!
 </span></span><span style="display:flex;"><span>(4. Mai 1941)
-</span></span></code></pre></div>]]></content:encoded></item><item><title>Was gibt es Neues</title><link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link><pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="privat">Privat</h2>
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Was gibt es Neues</title>
+      <link>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</link>
+      <pubDate>Thu, 25 Apr 2024 14:32:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20240425t143237--was-gibt-es-neues__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="privat">Privat</h2>
 <p>Zuhause erfahren wir neue Herausforderungen in der Erziehung der Kinder. Gabriel tritt in die Pubertät ein. Sagt prinzipiell zu allem &ldquo;Nein&rdquo;; und in der Schule lässt er nach einem ausgezeichneten ersten Semester etwas nach. Gabriel ist wohl in der Phase zu mehr Selbständigkeit. Loslassen können ist schwer; die Kunst besteht darin, dies nicht aus (persönlicher) Enttäuschung zu tun, sondern zum Wohl des Kindes. Gerade in diesem Alter ist der Schritt zur Selbständigkeit so wichtig. Gabriel tut sich dabei besonders schwer.</p>
 <p>Wir werden ihn nie fallen lassen; Schritt für Schritt soll er diesen steilen Weg gehen. Er schafft dies bestimmt. Besonders Kinder wie Gabriel werden später zu großartigen Persönlichkeiten. Zu leicht lassen wir uns von Gabriel&rsquo;s Scheitern, Unzulänglichkeiten, etc täuschen, geben auf. Entscheidungen sollen niemals aus dem Affekt heraus getroffen werden - und diese Versuchung ist groß. Wie schnell ist man als Papa oder Mama enttäuscht &hellip;</p>
 <p>Leopold geht einen ganz anderen Weg - ist in der ersten Klasse VS selbständig. Im Lernen und Erledigen der HÜ ist er sehr gewissenhaft, genau und wird immer schneller. Seine Schwäche ist der Zorn; da können die &ldquo;Pferde&rdquo; schnell einmal mit ihm durchgehen. Diese zu zügeln ist die große Aufgabe und Herausforderung für Leopold.</p>
 <h2 id="familienrat">Familienrat</h2>
 <p>Aus all diesen Erfahrungen heraus haben wir entschieden, uns am Sonntag für einen ersten Familienrat zu treffen. Jeder soll den anderen ein Kompliment sagen - und einen Punkt, in dem er selbst sich verbessern möchte. Bin sehr gespannt; hoffentlich kann dies auch das Verhältnis zwischen den Brüdern befrieden.</p>
-]]></content:encoded></item><item><title>Blogeinträge mit Denote und Hugo</title><link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link><pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="denote">Denote</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Blogeinträge mit Denote und Hugo</title>
+      <link>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</link>
+      <pubDate>Thu, 25 Apr 2024 09:22:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="denote">Denote</h2>
 <p>Hier erkläre ich meinen Workflow in <code>org-mode</code> und <code>denote</code> für meine persönlichen Blog &ldquo;After Dark&rdquo;.</p>
 <ul>
 <li><code>C-c n t</code> (<code>denote-template</code>) &ldquo;post&rdquo;-Template</li>
@@ -203,11 +309,31 @@
 <li><code>m m</code> (merge)</li>
 <li><code>P p</code> (push)</li>
 </ul>
-]]></content:encoded></item><item><title>Doom Emacs vs Spacemacs vs Emacs</title><link>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</link><pubDate>Mon, 23 Oct 2023 10:24:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="doom-emacs-plus-spacemacs">Doom Emacs + Spacemacs</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Doom Emacs vs Spacemacs vs Emacs</title>
+      <link>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</link>
+      <pubDate>Mon, 23 Oct 2023 10:24:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="doom-emacs-plus-spacemacs">Doom Emacs + Spacemacs</h2>
 <p>Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.</p>
 <h2 id="zweitens">Zweitens</h2>
 <p>Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.</p>
-]]></content:encoded></item><item><title>Was gibt es Neues</title><link>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</link><pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="schule">Schule</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Was gibt es Neues</title>
+      <link>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</link>
+      <pubDate>Mon, 25 Sep 2023 20:41:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="schule">Schule</h2>
 <p>Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.</p>
 <p>Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.</p>
 <p>Natürlich bedeutet dies ein wenig an finanziellen Einbußen. Vielmehr jedoch schmerzt das für die Moral - so viel Hingabe - kaum Retour. Im Gegenteil: alle Schüler vom vorigen Jahr haben sich abgemeldet. Das tut weh. Das spürt man keine Anerkennung, Dankbarkeit, &hellip; was bleibt ist der Fade Geschmack von Gleichgültigkeit. Viele Christen werden oder sind gleichgültig.</p>
@@ -221,33 +347,97 @@
 <h2 id="wie-kann-ich-den-copyright-eintrag-in-jedem-post-ändern">Wie kann ich den Copyright-Eintrag in jedem Post ändern?</h2>
 <p>Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei <code>~/flying-toasters/config.toml</code> geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.</p>
 <p>So, jetzt wird dieser Eintrag gepostet.</p>
-]]></content:encoded></item><item><title>Neuer Post</title><link>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</link><pubDate>Mon, 24 Jul 2023 00:26:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Neuer Post</title>
+      <link>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</link>
+      <pubDate>Mon, 24 Jul 2023 00:26:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230724t002600--neuer-post__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
 <p>Wir haben uns heute Avatar Teil 2 angeschaut.</p>
 <h2 id="zweitens">Zweitens</h2>
 <p>Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.</p>
-]]></content:encoded></item><item><title>Denote Hugo 2</title><link>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</link><pubDate>Sat, 22 Jul 2023 15:44:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Denote Hugo 2</title>
+      <link>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</link>
+      <pubDate>Sat, 22 Jul 2023 15:44:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230722t154458--denote-hugo-2__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
 <p>Ich probiere die `#+hugo_categories:` aus.</p>
 <h2 id="zweitens">Zweitens</h2>
 <p>schau ma mal&hellip;</p>
-]]></content:encoded></item><item><title>Denote Hugo</title><link>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</link><pubDate>Sat, 22 Jul 2023 00:33:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Denote Hugo</title>
+      <link>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</link>
+      <pubDate>Sat, 22 Jul 2023 00:33:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230722t003306--denote-hugo__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.</p>
 <h2 id="markdown">Markdown</h2>
 <p>Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.</p>
 <h2 id="org-mode">org-mode</h2>
 <p>Deshalb bleibe ich  bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.</p>
-]]></content:encoded></item><item><title>Fünfter Eintrag</title><link>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</link><pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded>&lt;h2 id="erstens">Erstens&lt;/h2>
-&lt;h2 id="zweitens">Zweitens&lt;/h2>
-</content:encoded></item><item><title>dritter Eintrag</title><link>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</link><pubDate>Fri, 21 Jul 2023 15:41:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p>So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Fünfter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 18:07:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<h2 id="erstens">Erstens</h2>
+<h2 id="zweitens">Zweitens</h2>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>dritter Eintrag</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</link>
+      <pubDate>Fri, 21 Jul 2023 15:41:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230721t154120--dritter-eintrag__public/</guid>
+      <description>This text was generated using the After Dark post archetype.</description>
+      <content:encoded><![CDATA[<p>So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.</p>
 <h2 id="erstens">Erstens</h2>
 <p>Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.</p>
 <h2 id="zweitens">Zweitens</h2>
 <h2 id="drittens">Drittens</h2>
-]]></content:encoded></item><item><title>Zweiter Eintrag heute</title><link>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</link><pubDate>Fri, 21 Jul 2023 09:07:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</guid><description>&lt;p&gt;Hier schreibe ich weiter.&lt;/p&gt;
-&lt;h2 id="eine-erste-überschrift"&gt;eine erste Überschrift&lt;/h2&gt;
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Zweiter Eintrag heute</title>
+      <link>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</link>
+      <pubDate>Fri, 21 Jul 2023 09:07:00 +0200</pubDate>
+      
+      <guid>https://afterdarkblog.github.io/posts/20230721t090746--zweiter-eintrag-heute__public/</guid>
+      <description>&lt;p&gt;Hier schreibe ich weiter.&lt;/p&gt;
+&lt;h2 id=&#34;eine-erste-überschrift&#34;&gt;eine erste Überschrift&lt;/h2&gt;
 &lt;p&gt;mit ihrem Text&lt;/p&gt;
-&lt;h2 id="und-eine-weitere"&gt;und eine weitere&lt;/h2&gt;
-&lt;p&gt;und so weiter&amp;hellip;&lt;/p&gt;</description><content:encoded><![CDATA[<p>Hier schreibe ich weiter.</p>
+&lt;h2 id=&#34;und-eine-weitere&#34;&gt;und eine weitere&lt;/h2&gt;
+&lt;p&gt;und so weiter&amp;hellip;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hier schreibe ich weiter.</p>
 <h2 id="eine-erste-überschrift">eine erste Überschrift</h2>
 <p>mit ihrem Text</p>
 <h2 id="und-eine-weitere">und eine weitere</h2>
 <p>und so weiter&hellip;</p>
-]]></content:encoded></item></channel></rss>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
