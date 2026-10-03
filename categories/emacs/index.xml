@@ -18,7 +18,7 @@
 </span></span><span class="line"><span class="cl">  <span class="c"># Erlaubt das horizontale Scrollen bei sehr langen Codezeilen</span>
 </span></span><span class="line"><span class="cl">  <span class="c"># anstelle eines automatischen Zeilenumbruchs</span>
 </span></span><span class="line"><span class="cl">  <span class="c"># lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout</span>
-</span></span></code></pre></div><p>Weiters habe ich eine <code>custom-code.css</code> in <code>/assets/css/extended</code> ertellt. <code>PaperModX</code> bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):</p>
+</span></span></code></pre></div><p>Weiters habe ich eine <code>custom-code.css</code> in <code>/assets/css/extended</code> ertellt. <code>PaperModX</code> bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* ========================================================
 </span></span></span><span class="line"><span class="cl"><span class="c">   DYNAMISCHES CODE-BLOCK STYLING (HELL- &amp; DUNKELMODUS)
 </span></span></span><span class="line"><span class="cl"><span class="c">   ======================================================== */</span>
