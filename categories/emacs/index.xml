@@ -2,7 +2,46 @@
 <p>Meinen Blog habe ich vom Theme &ldquo;Archie&rdquo; auf das Theme &ldquo;PaperModX&rdquo; umgestellt. Mir war nicht bewusst, dass diese Änderung so viel Arbeit mit sich bringen würde. Dafür war viel Geduld und Ausdauer notwendig; viel Frustration, kleine Erfolge, dann wieder ein Rückschlag. Als dann endlich ein Aspekt wie die Suchfunktion einwandfrei lief - war der zuvor eingerichtete Copyright Text verschwunden oder wollte sich dann nicht so auf der ersten Seite einrichten lassen, wie ich es mir vorstellte.</p>
 <p>Als dann der Blog einigermaßen meinen Vorstellungen entsprach, spielte git ziemlich verrückt. Wieder Geduld, Ausdauer, Rückschläge, kaum Fortschritte, &hellip; und dann - endlich: ein kleiner Erfolg - und schließlich: alles läuft wieder korrekt.</p>
 <p>Nebeneffekt: ich lerne neue Sprachen wie html und css kennen.</p>
-<h2 id="neues-schuljahr-neue-schule">Neues Schuljahr - &ldquo;neue&rdquo; Schule</h2>
+<h2 id="code-highlight">Code Highlight</h2>
+<p>Folgenden Code habe ich in meine <code>hugo.toml</code> eingebaut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">codeFences</span> <span class="p">=</span> <span class="kc">true</span>        <span class="c"># Aktiviert Highlighting für Blöcke mit ```</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">lineNos</span> <span class="p">=</span> <span class="kc">false</span>          <span class="c"># Schaltet globale Zeilennummern ein (true) oder aus (false)</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>        <span class="c"># WICHTIG für PaperModX: CSS-Klassen statt Inline-Styles nutzen</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">style</span> <span class="p">=</span> <span class="s2">&#34;monokai&#34;</span>        <span class="c"># Das Chroma-Fallback-Design (wird oft durch Theme-CSS überschrieben)</span>
+</span></span></code></pre></div><p>Damit man den Codeblock kopieren kann:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># Zeigt einen &#34;Kopieren&#34;-Button an allen Code-Blöcken an</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">ShowCodeCopyButtons</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c"># Erlaubt das horizontale Scrollen bei sehr langen Codezeilen</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># anstelle eines automatischen Zeilenumbruchs</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout</span>
+</span></span></code></pre></div><p>Weiters habe ich eine <code>custom-code.css</code> in <code>/assets/css/extended</code> ertellt. <code>PaperModX</code> bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für eine andere Hintergrundfarbe im Dark-Mode:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* ==========================================
+</span></span></span><span class="line"><span class="cl"><span class="c">   CODE-BLOCK STYLING (Chroma / PaperModX)
+</span></span></span><span class="line"><span class="cl"><span class="c">   ========================================== */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background-color</span><span class="p">:</span> <span class="mh">#1e1e24</span> <span class="cp">!important</span><span class="p">;</span> <span class="c">/* Dunklerer Hintergrund */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#333</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* Inline-Code-Schnipsel im Textfluss */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">post-content</span> <span class="nt">code</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background-color</span><span class="p">:</span> <span class="mh">#f5f5f5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#e06c75</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* Anpassung für den Dark-Mode */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">dark</span> <span class="p">.</span><span class="nc">post-content</span> <span class="nt">code</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background-color</span><span class="p">:</span> <span class="mh">#2c2c32</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#61afef</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="neues-schuljahr-neue-schule">Neues Schuljahr - &ldquo;neue&rdquo; Schule</h2>
 <p>Seit diesem Schuljahr bin ich nun für eine volle Lehrverpflichtung an der MS Mattsee, eine Schule mit einem sehr guten Ruf, netten Kollegen und freundlichen Kindern. Ich hoffe, dass ich endlich ankommen kann. Meine Ruhe und meinen Frieden finde.</p>
 ]]></content:encoded></item><item><title>Test</title><link>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</link><pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</guid><description>Ein Testeintrag.</description><content:encoded><![CDATA[<h2 id="github">Github</h2>
 <p>macht Probleme, scheinbar.</p>
