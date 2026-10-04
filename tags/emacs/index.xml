@@ -67,7 +67,7 @@
 </span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="mh">#2ea043</span> <span class="cp">!important</span><span class="p">;</span> <span class="c">/* Schönes GitHub-Grün */</span>
 </span></span><span class="line"><span class="cl">    <span class="k">border-color</span><span class="p">:</span> <span class="mh">#2ea043</span> <span class="cp">!important</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Der &ldquo;Copybutton&rdquo; fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock kopieren und danach <code>Strg + C</code> drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:</p>
+</span></span></code></pre></div><p>Der &ldquo;Copybutton&rdquo; fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock markieren und danach <code>Strg + C</code> drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:</p>
 <dl>
 <dt>Absolute Performance &amp; Sicherheit</dt>
 <dd>Da kein fremdes JavaScript im Hintergrund läuft, lädt meine Seite blitzschnell und es gibt keine Probleme mit restriktiven Browser-Sicherheitseinstellungen oder Adblockern, die Skripte gerne mal blockieren.</dd>
