@@ -18,7 +18,63 @@
 </span></span><span class="line"><span class="cl">  <span class="c"># Erlaubt das horizontale Scrollen bei sehr langen Codezeilen</span>
 </span></span><span class="line"><span class="cl">  <span class="c"># anstelle eines automatischen Zeilenumbruchs</span>
 </span></span><span class="line"><span class="cl">  <span class="c"># lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout</span>
-</span></span></code></pre></div><p>Weiters habe ich eine <code>custom-code.css</code> in <code>/assets/css/extended</code> ertellt. <code>PaperModX</code> bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):</p>
+</span></span></code></pre></div><p>Das alleine hat nicht genügt. Ich musste durch vieles Ausprobieren auch einen <code>css</code> Codeblock in die Datei <code>custom.css</code> schreiben:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* ========================================================
+</span></span></span><span class="line"><span class="cl"><span class="c">   CSS-ONLY COPY-INDICATOR (REINES CSS OHNE JAVASCRIPT)
+</span></span></span><span class="line"><span class="cl"><span class="c">   ======================================================== */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* Bereitet den Code-Block für die Platzierung des &#34;Buttons&#34; vor */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* Erzeugt das &#34;Kopieren&#34;-Feld oben rechts im Kasten */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span><span class="p">::</span><span class="nd">before</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;Code&#34;</span><span class="p">;</span> <span class="c">/* Standard-Text, falls keine Sprache erkannt wird */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">top</span><span class="p">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">right</span><span class="p">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">z-index</span><span class="p">:</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">3</span><span class="kt">px</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-size</span><span class="p">:</span> <span class="mi">11</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-family</span><span class="p">:</span> <span class="kc">sans-serif</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#888</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mf">0.15</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">transition</span><span class="p">:</span> <span class="kc">all</span> <span class="mf">0.2</span><span class="kt">s</span> <span class="kc">ease</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pointer-events</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="c">/* Verhindert, dass man den Text aus Versehen markiert */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* ========================================================
+</span></span></span><span class="line"><span class="cl"><span class="c">   KORREKTUR FÜR DIE FARBEN BEIM DRÜBERFAHREN (HOVER)
+</span></span></span><span class="line"><span class="cl"><span class="c">   ======================================================== */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* 1. Standard-Hover (für den HELLEN Modus -&gt; Blau) */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span><span class="p">:</span><span class="nd">hover</span><span class="p">::</span><span class="nd">before</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;Strg + C&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="mh">#0066cc</span> <span class="cp">!important</span><span class="p">;</span> <span class="c">/* Angenehmes Blau */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-color</span><span class="p">:</span> <span class="mh">#0066cc</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* 2. Spezieller Hover für den DUNKLEN Modus (Greift bei PaperModX über .dark body oder .dark) */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">dark</span> <span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span><span class="p">:</span><span class="nd">hover</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">dark-theme</span> <span class="p">.</span><span class="nc">post-content</span> <span class="nt">pre</span><span class="p">:</span><span class="nd">hover</span><span class="p">::</span><span class="nd">before</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;Strg + C&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="mh">#2ea043</span> <span class="cp">!important</span><span class="p">;</span> <span class="c">/* Schönes GitHub-Grün */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-color</span><span class="p">:</span> <span class="mh">#2ea043</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Der &ldquo;Copybutton&rdquo; fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock kopieren und danach <code>Strg + C</code> drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:</p>
+<dl>
+<dt>Absolute Performance &amp; Sicherheit</dt>
+<dd>Da kein fremdes JavaScript im Hintergrund läuft, lädt meine Seite blitzschnell und es gibt keine Probleme mit restriktiven Browser-Sicherheitseinstellungen oder Adblockern, die Skripte gerne mal blockieren.</dd>
+<dt>Keine Bevormundung der Leser</dt>
+<dd>Viele Entwickler und Tech-Interessierte markieren sich Code-Zeilen ohnehin am liebsten selbst mit der Maus, um nur den Teil zu kopieren, den sie wirklich brauchen. Mein Schildchen liefert dafür genau den richtigen optischen Hinweis.</dd>
+</dl>
+<p>Weiters habe ich eine <code>custom-code.css</code> in <code>/assets/css/extended</code> ertellt. <code>PaperModX</code> bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* ========================================================
 </span></span></span><span class="line"><span class="cl"><span class="c">   DYNAMISCHES CODE-BLOCK STYLING (HELL- &amp; DUNKELMODUS)
 </span></span></span><span class="line"><span class="cl"><span class="c">   ======================================================== */</span>
@@ -58,6 +114,7 @@
 <p>Seit diesem Schuljahr bin ich nun für eine volle Lehrverpflichtung an der MS Mattsee, eine Schule mit einem sehr guten Ruf, netten Kollegen und freundlichen Kindern. Ich hoffe, dass ich endlich ankommen kann. Meine Ruhe und meinen Frieden finde.</p>
 <h2 id="tja-brille-kaputt">Tja - Brille kaputt</h2>
 <p>Heute ist mir beim Brillen putzen die Fassung gebrochen. Gott sei Dank hatte ein Nachbar einen Superkleber. Trauriger Nebeneffekt: ein Brillenglas ist in einer Ecke sehr zerkratzt. Somit muss ich in nächster Zeit die Brille tauschen. So ein Missgeschick kommt nie zum passenden Zeitpunkt, wir müsssen zwei größere Reparaturen finanziell stemmen, da kommt eine 500 Euro Brille sehr ungelegen. Gott sei Dank stören die Kratzer nicht, sie liegen außerhalb des Sichtfeldes. Naja, ich hab mich erkundigt, man kann sich Unterstützung über die Krankenkassa und das Finanzamt holen.</p>
+<p>Für die Brille und die beiden Reparaturen werde ich mir Unterstützung von unserer Haushalts-, Unfall- und Rechtsschutzversicherung holen. Probieren geht über Studieren.</p>
 ]]></content:encoded></item><item><title>Test</title><link>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</link><pubDate>Tue, 05 May 2026 18:12:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20260505t181237--test__emacs/</guid><description>Ein Testeintrag.</description><content:encoded><![CDATA[<h2 id="github">Github</h2>
 <p>macht Probleme, scheinbar.</p>
 <h2 id="zweitens">Zweitens</h2>
