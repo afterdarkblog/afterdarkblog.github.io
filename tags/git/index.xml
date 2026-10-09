@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Git on After Dark</title><link>https://afterdarkblog.github.io/tags/git/</link><description>Recent content in Git on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Fri, 09 Oct 2026 19:25:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>git und ssh</title><link>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</link><pubDate>Fri, 09 Oct 2026 19:25:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</guid><description>Der goldene Standard</description><content:encoded><![CDATA[<h2 id="es-war-mühsam">Es war &ldquo;mühsam&rdquo;</h2>
+<p>Bis musste ich bei jeder Aktion auf <code>git</code> den Benutzernamen und den Token eingeben. Das war mehr als mühsam. Zusätzlich musste ich den Token alle 90 Tage neu generieren und ändern. Weshalb ich heute nach einer anderen Möglichkeit gesucht habe, diesen Prozess auf eine elegantere Weise durchzuführen.</p>
+<h2 id="der-ssh-key">Der <code>ssh-key</code></h2>
+<p>In den nächsten Zeilen zeige ich, wie man ein Git Repo auf ssh umstellt. Zuerst erstellt man einen privaten ssh-key auf seinem Gerät. Dazu führt man im Terminal foldgenden Befehl durch:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t ed25519 -C <span class="s2">&#34;deine-email@example.com&#34;</span>
+</span></span></code></pre></div><p>Bestätige die Abfragen einfach mit Enter (ein Passwort für den Schlüssel ist optional, erhöht aber die Sicherheit).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_ed25519.pub
+</span></span></code></pre></div><p>Die Ausgabe im Terminal kopieren.</p>
+<p>Gehe auf GitHub zu den <strong>Settings</strong> → <strong>SSH and GPG keys</strong> → <strong>New SSH key</strong>. Gib dem Schlüssel einen Namen (z. B. &ldquo;Mein Laptop&rdquo;) und füge den kopierten Text aus dem Terminal vom vorhergehenden Schritt bei <strong>Key</strong> ein.</p>
+<p>Da dein Blog-Repository aktuell noch über HTTPS läuft, musst du Git sagen, dass es ab jetzt SSH nutzen soll. Wechsel in deinem Terminal in den Ordner deines Blogs und gib Folgendes ein:</p>
+<p>Im Hauptverzeichnis (wo z.B. die Markdown Dateien liegen):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin git@github.com:afterdarkblog/afterdarkblog.github.io.git
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span></code></pre></div><p>Dann - im public-Verzeichnis:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:afterdarkblog/source.git
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span></code></pre></div><p>In Zukunft sollte git nicht mehr nach <code>username</code> und <code>password</code> bzw <code>token</code> fragen.</p>
+<p>Da ich meinen Blog <a href="https://afterdarkblog.github.io/">After Dark</a> in den letzten Tagen auf ein neues Theme umgestellt hatte, nahm ich dies zum Anlass, weitere Umstellungen und Verbesserungen vorzunehmen. Ich habe dem Blog ein Favicon verpasst, das sich automatisch je nach hellem oder dunklem Theme des Geräts in der Farbe anpasst:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 32 32&#34;</span> <span class="na">width=</span><span class="s">&#34;100%&#34;</span> <span class="na">height=</span><span class="s">&#34;100%&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;defs&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;style&gt;</span>
+</span></span><span class="line"><span class="cl">      .triangle {
+</span></span><span class="line"><span class="cl">        fill: none;
+</span></span><span class="line"><span class="cl">        stroke: #FF3366; /* Gelb-Orange im Light Mode */
+</span></span><span class="line"><span class="cl">        stroke-width: 4;
+</span></span><span class="line"><span class="cl">        stroke-linejoin: round;
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">      @media (prefers-color-scheme: dark) {
+</span></span><span class="line"><span class="cl">        .triangle {
+</span></span><span class="line"><span class="cl">          stroke: #00E5FF; /* Leuchtendes Cyan-Blau im Dark Mode */
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/style&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/defs&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;16,4 28,27 4,27&#34;</span> <span class="na">class=</span><span class="s">&#34;triangle&#34;</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><p>Der Blog lädt blitzschnell, sieht schick aus und es macht mir viel Freude, immer wieder einen neuen Beitrag zu verfassen. Das Schreiben hilft mir, meine Gedanken zu formulieren und zu verbessern. Im Schreiben kann ich tiefer über ein Thema nachdenken - es gilt, im Flow zu bleiben. Einfach zu schreiben. Die Gedanken werden kommen und sich weiter entwicklen. Das ist spannend.</p>
+]]></content:encoded></item></channel></rss>
