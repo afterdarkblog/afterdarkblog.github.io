@@ -9,11 +9,11 @@
 <p>Gehe auf GitHub zu den <strong>Settings</strong> → <strong>SSH and GPG keys</strong> → <strong>New SSH key</strong>. Gib dem Schlüssel einen Namen (z. B. &ldquo;Mein Laptop&rdquo;) und füge den kopierten Text aus dem Terminal vom vorhergehenden Schritt bei <strong>Key</strong> ein.</p>
 <p>Da dein Blog-Repository aktuell noch über HTTPS läuft, musst du Git sagen, dass es ab jetzt SSH nutzen soll. Wechsel in deinem Terminal in den Ordner deines Blogs und gib Folgendes ein:</p>
 <p>Im Hauptverzeichnis (wo z.B. die Markdown Dateien liegen):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin git@github.com:afterdarkblog/afterdarkblog.github.io.git
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/REPONAME.github.io.git
 </span></span><span class="line"><span class="cl">git push origin main --force
 </span></span></code></pre></div><p>Dann - im public-Verzeichnis:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> public
-</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:afterdarkblog/source.git
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/source.git
 </span></span><span class="line"><span class="cl">git push origin main --force
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
 </span></span></code></pre></div><p>In Zukunft sollte git nicht mehr nach <code>username</code> und <code>password</code> bzw <code>token</code> fragen.</p>
@@ -36,7 +36,94 @@
 </span></span><span class="line"><span class="cl">  <span class="nt">&lt;/defs&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;16,4 28,27 4,27&#34;</span> <span class="na">class=</span><span class="s">&#34;triangle&#34;</span><span class="nt">/&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
-</span></span></code></pre></div><p>Der Blog lädt blitzschnell, sieht schick aus und es macht mir viel Freude, immer wieder einen neuen Beitrag zu verfassen. Das Schreiben hilft mir, meine Gedanken zu formulieren und zu verbessern. Im Schreiben kann ich tiefer über ein Thema nachdenken - es gilt, im Flow zu bleiben. Einfach zu schreiben. Die Gedanken werden kommen und sich weiter entwicklen. Das ist spannend. Noch eine kleine Verbesserung zum Schluss. Das Repo wurde komplett überarbeitet.</p>
+</span></span></code></pre></div><p>Der Blog lädt blitzschnell, sieht schick aus und es macht mir viel Freude, immer wieder einen neuen Beitrag zu verfassen. Das Schreiben hilft mir, meine Gedanken zu formulieren und zu verbessern. Im Schreiben kann ich tiefer über ein Thema nachdenken - es gilt, im Flow zu bleiben. Einfach zu schreiben. Die Gedanken werden kommen und sich weiter entwicklen.</p>
+<h2 id="fehlerbehebungen">Fehlerbehebungen</h2>
+<p>Im Zuge der Umstellung von Token auf ssh-key kam es zu einigen Fehlermeldungen. Ich habe das fehleranfällige Git-Submodul komplett eliminiert. Vorher war mein public-Ordner ein „Submodul“ – also ein eigenständiges Git-Repository, das tief in der versteckten Datenbank des Hauptordners verankert war. Da der Pagefind-Suchindex bei jedem Durchlauf alle Dateien in diesem Ordner neu generiert, gerieten die unsichtbaren Verbindungsketten (die Commit-Zeiger) ständig asynchron. Das hat die ständigen Fehler in den GitHub Actions ausgelöst. Ich habe mein System auf eine saubere Trennung und absolute Unabhängigkeit umgestellt. Hier ist die genaue Übersicht, was sich geändert hat:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rm --cached public
+</span></span><span class="line"><span class="cl">rm .gitmodules
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Entferne fehlerhaftes Git-Submodul endgültig&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Das führte noch nicht zum gewünschten Erfolg ...</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. Das Submodul radikal aus dem versteckten Git-Verzeichnis löschen</span>
+</span></span><span class="line"><span class="cl">rm -rf .git/modules/public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Den alten Konfigurationseintrag direkt aus der Git-Config entfernen</span>
+</span></span><span class="line"><span class="cl">git config --remove-section submodule.public 2&gt;/dev/null
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Den aktuellen Stand der echten Dateien einscannen und committen</span>
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Cleanup: Versteckte Submodul-Reste endgültig entfernt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. Den bereinigten Stand mit Gewalt auf GitHub hochladen, um dortige Reste zu überschreiben</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Es kam zu einer Fehlermeldung ...</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Im Hauptverzeichnis</span>
+</span></span><span class="line"><span class="cl">git rebase --abort
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Im Public-Verzeichnis</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/REPONAME.github.io.git
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Live-HTML Update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Hauptverzeichnis:</span>
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/source.git
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Quellcode Backup Update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Im Public Verzeichnis gab es eine Fehlermeldung ...</span>
+</span></span><span class="line"><span class="cl">git rebase --abort
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git reset --hard HEAD
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/REPONAME.github.io.git
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Live-HTML Update nach Bereinigung&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Hauptverzeichnis</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">git remote set-url origin git@github.com:REPONAME/source.git
+</span></span><span class="line"><span class="cl">git add -A .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Quellcode Backup Update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main --force
+</span></span></code></pre></div><h3 id="das-submodul-ist-weg">Das Submodul ist weg</h3>
+<p>Der public-Ordner ist für mein Hauptverzeichnis jetzt ein ganz normaler, lokaler Ordner ohne Sonderstatus. Damit das Hauptverzeichnis nicht versucht, HTML-Dateien mitzusichern, steht der Ordner nun auf einer lokalen Ignorier-Liste (.git/info/exclude). Es gibt keine versteckten Zeiger mehr, die online kaputtgehen können.</p>
+<h3 id="die-repositories-wurden-getauscht--der-entscheidende-fix">Die Repositories wurden getauscht (Der entscheidende Fix)</h3>
+<p>Ich habe die Datenströme in meinem Skript so umgeleitet, dass sie exakt zu meiner Struktur auf GitHub passen:</p>
+<dl>
+<dt>Die fertige Website (public)</dt>
+<dd>Lädt die reinen HTML/CSS-Dateien jetzt direkt in mein Live-Repository REPONAME.github.io hoch. GitHub Pages nimmt diese Dateien und schaltet meinen neuen Post sofort live.</dd>
+<dt>Der Quellcode (Hauptordner)</dt>
+<dd>Lädt meine Markdown-Dateien und Hugo-Einstellungen als sicheres Backup in das Repository source hoch.</dd>
+</dl>
+<h3 id="von-token-auf-ssh-gewechselt">Von Token auf SSH gewechselt</h3>
+<p>Ich authentifiziere mich nicht mehr über HTTPS mit einem Passfahrtschein (Token), der alle 90 Tage abläuft. Mein Computer nutzt jetzt einen festen SSH-Schlüssel. Git wandelt jede GitHub-Adresse im Hintergrund automatisch um, gleicht meinen Schlüssel ab und lässt mich ohne jegliche Passworteingabe gewähren.</p>
+<h3 id="das-ergebnis-für-dich">Das Ergebnis für dich:</h3>
+<p>Mein Skript steuert die beiden Repositories nun nacheinander als zwei völlig getrennte Welten an. Es lädt erst die Webseite auf die Bühne (Live-Repo) und sichert danach das Skript und die Texte im Safe (Backup-Repo). Es kann sich technisch nichts mehr blockieren.</p>
+<h2 id="brille-gebrochen">Brille gebrochen</h2>
+<p>Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkleber repariert. Dabei wurde das Glas zerkratzt. Und heute ist sie mir ein zweites Mal gebrochen. Mit Leopold sind wir beide in die Stadt gefahren. Leider bin ich zuerst zur Stadtbibliothek gefahren, um Bücher zurück zu bringen und neue auszuborgen. Warum leider? Ich dachte - den Optiker mache ich am Rückweg. Denn ich hatte ein Geschäft in Nonntal während der Hinfahrt entdeckt. Der Optiker in Nonntal schließt um 12h30. Es war knapp, aber wir haben es doch geschafft und nun habe ich wieder eine ordentliche Brille.</p>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Gebrochene_Brille.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Gebrochene Brille
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Neue_Brille.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Neue Brille
+        </figcaption>
+</figure>
+
 ]]></content:encoded></item><item><title>Neuer Start</title><link>https://afterdarkblog.github.io/posts/20261003t153525--neuer-start__emacs/</link><pubDate>Sat, 03 Oct 2026 15:35:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261003t153525--neuer-start__emacs/</guid><description>Neue Sprachen und eine neue Schule</description><content:encoded><![CDATA[<h2 id="neues-theme-papermodx">Neues Theme &lsquo;PaperModX&rsquo;</h2>
 <p>Meinen Blog habe ich vom Theme &ldquo;Archie&rdquo; auf das Theme &ldquo;PaperModX&rdquo; umgestellt. Mir war nicht bewusst, dass diese Änderung so viel Arbeit mit sich bringen würde. Dafür war viel Geduld und Ausdauer notwendig; viel Frustration, kleine Erfolge, dann wieder ein Rückschlag. Als dann endlich ein Aspekt wie die Suchfunktion einwandfrei lief - war der zuvor eingerichtete Copyright Text verschwunden oder wollte sich dann nicht so auf der ersten Seite einrichten lassen, wie ich es mir vorstellte.</p>
 <p>Als dann der Blog einigermaßen meinen Vorstellungen entsprach, spielte git ziemlich verrückt. Wieder Geduld, Ausdauer, Rückschläge, kaum Fortschritte, &hellip; und dann - endlich: ein kleiner Erfolg - und schließlich: alles läuft wieder korrekt.</p>
