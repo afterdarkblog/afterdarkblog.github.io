@@ -20,7 +20,7 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 </ul>
 <p>Es ist großartig. Jeden Tag auf Gottes Wort hören, gerade durch diesen speziellen Leseplan, ist eine große spirituelle Freude. Dieser Plan unterteilt die Heilsgeschichte in zwölf Abschnitte, wodruch der innere Zusammenhang von Gottes Wirken erkennbar wird. Der Podcast von Fr. Mike Schmitz ist einzigartig. Seit Weihnachten 2025 höre ich täglich zu und lese mit.</p>
 <h2 id="links-zu-anderen-posts-und-headline">Links zu anderen Posts und Headline</h2>
-<p>Dafür verwende ich typischen org-link <code>[[file:mein-anderer-post.org][anderen Beitrag]]</code>.</p>
+<p>Dafür verwende ich den typischen org-link <code>[[file:mein-anderer-post.org][anderen Beitrag]]</code>.</p>
 <dl>
 <dt>Im Org-Mode</dt>
 <dd>Der Link funktioniert direkt in Emacs.</dd>
