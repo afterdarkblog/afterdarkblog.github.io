@@ -25,7 +25,7 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <dt>Im Org-Mode</dt>
 <dd>Der Link funktioniert direkt in Emacs.</dd>
 <dt>Beim Export (.md)</dt>
-<dd><code>ox-hugo</code> konvertiert dies automatisch in einen relativen Markdown-Link (z. B. <a href="../mein-anderer-post/">anderen Beitrag</a>).</dd>
+<dd><code>ox-hugo</code> konvertiert dies automatisch in einen relativen Markdown-Link (z. B. <code>[anderen Beitrag](../mein-anderer-post/)</code>).</dd>
 <dt>In HTML</dt>
 <dd>Hugo rendert daraus den fertigen HTML-Link.</dd>
 </dl>
