@@ -12,8 +12,13 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 [ ] die ich liebe.</p>
 </blockquote>
 <h2 id="bible-in-a-year">Bible in a Year</h2>
-<p>Bin im Moment bei Tag 285.</p>
-<p>Es ist großartig.</p>
+<p>Bin im Moment bei Tag 286, mitten in der Epoche der Revolte der Makkabäer. Heute habe ich gelesen:</p>
+<ul>
+<li>1 Makkaabäer 5</li>
+<li>Jesus Sirach 13-15</li>
+<li>Sprichwörter 22,13-16</li>
+</ul>
+<p>Es ist großartig. Jeden Tag auf Gottes Wort hören, gerade durch diesen speziellen Leseplan, ist eine große spirituelle Freude. Dieser Plan unterteilt die Heilsgeschichte in zwölf Abschnitte, wodruch der innere Zusammenhang von Gottes Wirken erkennbar wird. Der Podcast von Fr. Mike Schmitz ist einzigartig. Seit Weihnachten 2025 höre ich täglich zu und lese mit. Hier mache ich noch einen Link zu <a href="/posts/20261009t192526--git-und-ssh__emacs_git/#Brille">Brille gebrochen</a>. Damit möhte ich nur wissen, ob so ein Link auch online funtkioniert.</p>
 ]]></content:encoded></item><item><title>git und ssh</title><link>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</link><pubDate>Fri, 09 Oct 2026 19:25:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</guid><description>Der goldene Standard</description><content:encoded><![CDATA[<h2 id="es-war-mühsam">Es war &ldquo;mühsam&rdquo;</h2>
 <p>Bis jetzt musste ich bei jeder Aktion auf <code>git</code> den Benutzernamen und den Token eingeben. Das war mehr als mühsam. Zusätzlich musste ich den Token alle 90 Tage neu generieren und ändern. Weshalb ich heute nach einer anderen Möglichkeit gesucht habe, diesen Prozess auf eine elegantere Weise durchzuführen.</p>
 <h2 id="der-ssh-key">Der <code>ssh-key</code></h2>
