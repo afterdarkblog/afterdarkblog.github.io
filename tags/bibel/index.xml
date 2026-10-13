@@ -18,5 +18,22 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <li>Jesus Sirach 13-15</li>
 <li>Sprichwörter 22,13-16</li>
 </ul>
-<p>Es ist großartig. Jeden Tag auf Gottes Wort hören, gerade durch diesen speziellen Leseplan, ist eine große spirituelle Freude. Dieser Plan unterteilt die Heilsgeschichte in zwölf Abschnitte, wodruch der innere Zusammenhang von Gottes Wirken erkennbar wird. Der Podcast von Fr. Mike Schmitz ist einzigartig. Seit Weihnachten 2025 höre ich täglich zu und lese mit. Hier mache ich noch einen Link zu <a href="/posts/20261009t192526--git-und-ssh__emacs_git/#Brille">Brille gebrochen</a>. Damit möhte ich nur wissen, ob so ein Link auch online funtkioniert.</p>
+<p>Es ist großartig. Jeden Tag auf Gottes Wort hören, gerade durch diesen speziellen Leseplan, ist eine große spirituelle Freude. Dieser Plan unterteilt die Heilsgeschichte in zwölf Abschnitte, wodruch der innere Zusammenhang von Gottes Wirken erkennbar wird. Der Podcast von Fr. Mike Schmitz ist einzigartig. Seit Weihnachten 2025 höre ich täglich zu und lese mit.</p>
+<h2 id="links-zu-anderen-posts-und-headline">Links zu anderen Posts und Headline</h2>
+<p>Dafür verwende ich typischen org-link <code>[[file:mein-anderer-post.org][anderen Beitrag]]</code>.</p>
+<dl>
+<dt>Im Org-Mode</dt>
+<dd>Der Link funktioniert direkt in Emacs.</dd>
+<dt>Beim Export (.md)</dt>
+<dd><code>ox-hugo</code> konvertiert dies automatisch in einen relativen Markdown-Link (z. B. <a href="../mein-anderer-post/">anderen Beitrag</a>).</dd>
+<dt>In HTML</dt>
+<dd>Hugo rendert daraus den fertigen HTML-Link.</dd>
+</dl>
+<p>Um einen Link zu einer Headline in einem Post herzustellen, muss ich zuerst im verlinkten Post unter der gewünschten Headline ein <code>org-set-property</code> (<code>C-c C-x p</code>) setzen.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-org" data-lang="org"><span class="line"><span class="cl"><span class="gh">*</span><span class="gs"> Eine wichtige Unterüberschrift</span>
+</span></span><span class="line"><span class="cl"><span class="c"> :PROPERTIES:
+</span></span></span><span class="line"><span class="cl"><span class="cs"> :CUSTOM_ID: mein-anker-punkt
+</span></span></span><span class="line"><span class="cl"><span class="c"> :END:</span>
+</span></span><span class="line"><span class="cl"> Text unter der Überschrift...
+</span></span></code></pre></div><p>Der Link dorthin sieht folgendermaßen aus: <code>[[file:mein-anderer-post.org::#mein-anker-punkt][spezifischen Abschnitt]]</code>. Wichtig ist dabei der doppelte Doppelpunkt <code>::#</code>. Im nächsten Satz hab ich zum vorherigen Post, und dort zum Abschnitt meiner kaputten Brille verlinkt. Hier mache ich noch einen Link zu <a href="/posts/20261009t192526--git-und-ssh__emacs_git/#Brille">Brille gebrochen</a>. Damit möhte ich nur wissen, ob so ein Link auch online funtkioniert.</p>
 ]]></content:encoded></item></channel></rss>
