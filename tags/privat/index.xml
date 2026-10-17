@@ -91,9 +91,6 @@
         </figcaption>
 </figure>
 
-<ul>
-<li>Dominikaner</li>
-</ul>
 <figure class="border-2">
     <img loading="lazy" src="/images/Jesuiten.jpg"
          alt="wunderschön" width="100%" height="100%"/> <figcaption>
@@ -101,12 +98,55 @@
         </figcaption>
 </figure>
 
-<ul>
-<li>Jesuiten</li>
-<li>Franziskaner</li>
-<li>Kapuziner</li>
-<li>Schotten</li>
-</ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Jesuitenkirche_Innenansicht.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Jesuitenkirche Innenansicht
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Franziskanerkirche.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Franziskanerkirche
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Franziskanerkirche_Innenansicht.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Franziskanerkirche Innenansicht
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Kapuzinerkirche.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Kapuzinerkirche
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Kapuzinerkirche_Innenansicht.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Kapuzinerkirche Innenansicht
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Schottenkirche.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Freyung, Schottensift
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Schottenkirche_Innenansicht.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Schottenkirche Innenansicht
+        </figcaption>
+</figure>
+
 <figure class="border-2">
     <img loading="lazy" src="/images/Maria_Gestaade1.jpg"
          alt="wunderschön" width="100%" height="100%"/> <figcaption>
@@ -128,10 +168,20 @@
         </figcaption>
 </figure>
 
-<ul>
-<li>Maria am Gestade</li>
-<li>Petruskirche</li>
-</ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Peterskirche.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Peterskirche
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Peterskirche_Innenansicht.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Peterskirche Innenansicht
+        </figcaption>
+</figure>
+
 <figure class="border-2">
     <img loading="lazy" src="/images/Palais_Ferstl.jpg"
          alt="wunderschön" width="100%" height="100%"/> <figcaption>
