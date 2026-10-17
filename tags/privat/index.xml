@@ -51,18 +51,108 @@
 <p>Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle <code>Hugo</code> Befehle hier in Emacs eingeben. Und hier steht ein weiterer Text.</p>
 <h2 id="hotel">Hotel</h2>
 <p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Donau1.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Blick auf Donau - Donaucity
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Donau2.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Donau - Richtung Südosten
+        </figcaption>
+</figure>
+
 <h2 id="wallfahrt-zu-sieben-kirchen">Wallfahrt zu sieben Kirchen</h2>
 <p>Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet um die sieben Gaben des Hl. Geistes.</p>
 <ul>
 <li>St. Rochus (extra: eucharistische Anbetung rund um die Uhr).</li>
+</ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Dominikaner2.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Dominikaner3.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Hauptaltar Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Dominikaner4.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Seitenaltar Wien
+        </figcaption>
+</figure>
+
+<ul>
 <li>Dominikaner</li>
+</ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Jesuiten.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
+<ul>
 <li>Jesuiten</li>
 <li>Franziskaner</li>
 <li>Kapuziner</li>
 <li>Schotten</li>
+</ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Maria_Gestaade1.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Maria_Gestaade2.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Maria_Gestaade3.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
+<ul>
 <li>Maria am Gestade</li>
 <li>Petruskirche</li>
 </ul>
+<figure class="border-2">
+    <img loading="lazy" src="/images/Palais_Ferstl.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Palais Ferstl Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Passage1.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Passage Wien
+        </figcaption>
+</figure>
+
+<figure class="border-2">
+    <img loading="lazy" src="/images/Passage2.jpg"
+         alt="wunderschön" width="100%" height="100%"/> <figcaption>
+            Dominikanerkirche Wien
+        </figcaption>
+</figure>
+
 <p>Mittagessen mit Meli und Eisessen</p>
 <h2 id="zeit-mit-meli-und-otto">Zeit mit Meli und Otto</h2>
 <p>Abendessen und Kino am Freitag</p>
