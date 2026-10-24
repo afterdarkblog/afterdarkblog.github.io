@@ -1,4 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>After Dark</title><link>https://afterdarkblog.github.io/</link><description>Recent content on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Tue, 20 Oct 2026 08:35:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Proteste in Frankreich</title><link>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</link><pubDate>Tue, 20 Oct 2026 08:35:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</guid><description>Gewalt ist keine Lösung.</description><content:encoded><![CDATA[<h2 id="berechtigte-wut">Berechtigte Wut</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>After Dark</title><link>https://afterdarkblog.github.io/</link><description>Recent content on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sat, 24 Oct 2026 16:19:00 +0200</lastBuildDate><atom:link href="https://afterdarkblog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Meine neue Modeline</title><link>https://afterdarkblog.github.io/posts/20261024t161930--meine-neue-modeline__emacs/</link><pubDate>Sat, 24 Oct 2026 16:19:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261024t161930--meine-neue-modeline__emacs/</guid><description>Simple is beautiful.</description><content:encoded><![CDATA[<h2 id="meine-alte-mode-line">Meine alte <code>mode-line</code></h2>
+<p>Vorher habe ich Prot&rsquo;s Version seiner <code>mode-line</code> verwendet. Sie hat super funktioniert; dafür habe ich allerdings drei riesige Dateien gebraucht. Warum?</p>
+<p>Dass meine Modeline jetzt so kurz ist und trotzdem genau das tut, was ich will, liegt daran, dass ich sie maßgeschneidert auf meine Bedürfnisse geschrieben habe. Prots Code hingegen ist deshalb so extrem lang, weil er einem völlig anderen Design-Philosophie-Ansatz folgt.
+Hier sind die Hauptgründe, warum Prots Modeline-Code Hunderte von Zeilen umfasst:</p>
+<h3 id="universelle-kompatibilität--er-baut-für-alle-nicht-nur-für-sich">Universelle Kompatibilität (Er baut für alle, nicht nur für sich)</h3>
+<p>Prot veröffentlicht seine Konfigurationen für die gesamte Emacs-Community. Sein Code muss auf jedem Betriebssystem (Linux, macOS, Windows) und mit jeder Emacs-Version (auch älteren Versionen vor Emacs 29) fehlerfrei laufen.</p>
+<p>Wo ich einfach voraussetze, dass ich modernste Emacs-Funktionen wie <code>mode-line-window-selected-p</code> oder <code>mode-line-format-right-align</code> nutze, baut Prot oft komplexe, abwärtskompatible Fallback-Funktionen per Hand nach.</p>
+<h3 id="extremes-edge-case-handling">Extremes Edge-Case-Handling</h3>
+<p>Was passiert, wenn ein Buffer keine Datei ist (z. B. <strong>Messages</strong> oder Dired)? Was, wenn Git im Hintergrund abstürzt? Was, wenn der Buffer schreibgeschützt ist?</p>
+<p>Prot fängt jeden erdenklichen Sonderfall mit eigenen <code>if</code>- und <code>cond</code>-Abfragen ab. Das macht den Code extrem robust, bläht ihn aber massiv auf. Der kurze Code vertraut darauf, dass Emacs die Standardfehler im Hintergrund leise selbst regelt.</p>
+<h3 id="verzicht-auf-externe-pakete--die-vanilla-philosophie">Verzicht auf externe Pakete (Die &ldquo;Vanilla&rdquo;-Philosophie)</h3>
+<p>Prot vermeidet externe Pakete (wie nerd-icons oder all-the-icons), wo es nur geht.</p>
+<p>Um die Symbole und Trenner anzuzeigen, die du in deinen ersten Screenshots hattest (¶, ƒ, ⎸), berechnet er die exakten Abstände, Text-Eigenschaften (Faces) und Schriftgewichte im Code selbst. Das Erzeugen dieser textbasierten Grafiken direkt in reinem Elisp benötigt extrem viel Code-Infrastruktur.</p>
+<h3 id="das-modus-themes-ökosystem">Das modus-themes Ökosystem</h3>
+<p>Prots Modeline ist tief in seine bekannten Themes integriert. Sie lauscht dynamisch darauf, welches Theme ich gerade aktiviere, und passt die Farben der Modeline, des Git-Status und der Schriftarten im Hintergrund live an. Diese tiefe Verwebung erfordert viele Hilfsfunktionen (Helper Functions) und Variablen, die ich in meiner privaten, festen Konfiguration schlicht nicht brauche.</p>
+<h3 id="fazit">Fazit</h3>
+<p>Prots Code ist wie ein Schweizer Taschenmesser: schwer, vollgepackt und für jede Situation gerüstet. Meine neue Modeline ist wie ein Skalpell: superscharf, federleicht und exakt für meine Hand geschmiedet.</p>
+<h2 id="die-konfiguration-meiner-mode-line">Die Konfiguration meiner <code>mode-line</code></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="c1">;;; my modeline</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Ich habe den sehr langen Code von Prot durch meine eigene, schlanke</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; &#39;mode-line&#39; ersetzt. Prot&#39;s Code ist deshalb so lange, weil er nicht</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; für sich schreibt, sondern für alle Emacs-User und für alle erdenklichen</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Szenarien. Was passiert, wenn ein Buffer keine Datei ist (z. B. *Messages* oder Dired)?</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Was, wenn Git im Hintergrund abstürzt?</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Was, wenn der Buffer schreibgeschützt ist?</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Für die Icons berechnet er die exakten Abstände,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Text-Eigenschaften (Faces) und Schriftgewichte im Code selbst.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Das Erzeugen dieser textbasierten Grafiken direkt in reinem Elisp</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; benötigt extrem viel Code-Infrastruktur.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; Meine Modeline erzielt das gleiche Ergebnis mit wesentlich weniger Code,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; weil sie auf meine Bedürfnisse maßgeschneidert ist.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; =============================================================================</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; 1. HILFSFUNKTIONEN FÜR DIE ICONS</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; =============================================================================</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">my-modeline-vc-info</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;Zeigt ein echtes Nerd-Icon und den reinen Branch-Namen ohne Emacs-Raute.&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nb">when</span> <span class="nv">vc-mode</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">backend</span> <span class="p">(</span><span class="nv">vc-backend</span> <span class="nf">buffer-file-name</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">           <span class="c1">;; Schneidet das native Emacs-Icon und das Backend (z.B. &#34;Git:&#34;) ab</span>
+</span></span><span class="line"><span class="cl">           <span class="p">(</span><span class="nv">branch</span> <span class="p">(</span><span class="nv">string-trim</span> <span class="p">(</span><span class="nf">substring</span> <span class="nv">vc-mode</span> <span class="p">(</span><span class="nf">+</span> <span class="mi">2</span> <span class="p">(</span><span class="nf">length</span> <span class="p">(</span><span class="nf">symbol-name</span> <span class="nv">backend</span><span class="p">))))))</span>
+</span></span><span class="line"><span class="cl">           <span class="p">(</span><span class="nv">active-face</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nv">mode-line-window-selected-p</span><span class="p">)</span> <span class="ss">&#39;warning</span> <span class="ss">&#39;shadow</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">           <span class="c1">;; Filigranes, scharfes Git-Branch Icon aus den Octicons</span>
+</span></span><span class="line"><span class="cl">           <span class="p">(</span><span class="nv">git-icon</span> <span class="p">(</span><span class="nv">nerd-icons-octicon</span> <span class="s">&#34;nf-oct-git_branch&#34;</span> <span class="nb">:face</span> <span class="nv">active-face</span> <span class="nb">:height</span> <span class="mf">0.95</span> <span class="nb">:v-adjust</span> <span class="mf">-0.05</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="nf">concat</span> <span class="nv">git-icon</span> <span class="s">&#34; &#34;</span> <span class="nv">branch</span><span class="p">))))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">my-modeline-major-mode</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;Zeigt das passende Major-Mode-Icon in seiner echten Originalfarbe.&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">icon</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nv">mode-line-window-selected-p</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                  <span class="c1">;; AKTIV: Absolut vanilla nerd-icons (bringt die Farben automatisch mit)</span>
+</span></span><span class="line"><span class="cl">                  <span class="p">(</span><span class="nv">nerd-icons-icon-for-mode</span> <span class="nv">major-mode</span> <span class="nb">:height</span> <span class="mf">0.95</span> <span class="nb">:v-adjust</span> <span class="mf">-0.05</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">;; INAKTIV: Erzwingt das ausgegraute Aussehen</span>
+</span></span><span class="line"><span class="cl">                <span class="p">(</span><span class="nv">nerd-icons-icon-for-mode</span> <span class="nv">major-mode</span> <span class="nb">:face</span> <span class="ss">&#39;mode-line-inactive</span> <span class="nb">:height</span> <span class="mf">0.95</span> <span class="nb">:v-adjust</span> <span class="mf">-0.05</span><span class="p">))))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nf">concat</span> <span class="p">(</span><span class="nb">if</span> <span class="nv">icon</span> <span class="p">(</span><span class="nf">concat</span> <span class="nv">icon</span> <span class="s">&#34; &#34;</span><span class="p">)</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="p">(</span><span class="nf">format-mode-line</span> <span class="nv">mode-name</span><span class="p">))))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq</span> <span class="nv">modus-themes-grafts</span> <span class="no">nil</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; =============================================================================</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; 2. DAS NATIVE MODELINE FORMAT (AKTIV / INAKTIV STEUERUNG)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; =============================================================================</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq-default</span> <span class="nv">mode-line-format</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;%e&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34; &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">;; Diese Elemente sind IMMER sichtbar (Sowohl in aktiven als auch inaktiven Fenstern)</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">mode-line-mule-info</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">mode-line-modified</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34; &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;%b&#34;</span>                                  <span class="c1">; Buffer- / Dateiname</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;   &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">:propertize</span> <span class="s">&#34;%l : %c&#34;</span> <span class="nb">:face</span> <span class="ss">&#39;shadow</span><span class="p">)</span> <span class="c1">; Zeile : Spalte (ausgegraut)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">;; DYNAMISCHER MITTELTEIL: Wird NUR im aktiven Fenster angezeigt</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">:eval</span>
+</span></span><span class="line"><span class="cl">     <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nv">mode-line-window-selected-p</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">vc-str</span> <span class="p">(</span><span class="nv">my-modeline-vc-info</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">         <span class="p">(</span><span class="nf">append</span>
+</span></span><span class="line"><span class="cl">          <span class="p">(</span><span class="nb">when</span> <span class="nv">vc-str</span> <span class="p">(</span><span class="nf">list</span> <span class="s">&#34; &#34;</span> <span class="nv">vc-str</span><span class="p">))</span>   <span class="c1">; Git-Icon + Branch</span>
+</span></span><span class="line"><span class="cl">          <span class="p">(</span><span class="nf">list</span> <span class="s">&#34;   &#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">(</span><span class="nf">propertize</span> <span class="s">&#34;| &#34;</span> <span class="ss">&#39;face</span> <span class="ss">&#39;shadow</span><span class="p">)</span> <span class="c1">; Unser sauberer Trenner</span>
+</span></span><span class="line"><span class="cl">                <span class="p">(</span><span class="nv">my-modeline-major-mode</span><span class="p">))))))</span>  <span class="c1">; Major-Mode Icon + Name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">;; RECHTSBÜNDIGKEIT: Drückt alles Folgende an den rechten Bildschirmrand</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">mode-line-format-right-align</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34; &#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">;; ERC KANÄLE: Direkt platziert (damit ERC sie aktiv aktualisiert),</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">;; aber visuell nur im aktiven Fenster sichtbar geschaltet.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">:eval</span> <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nb">and</span> <span class="p">(</span><span class="nv">mode-line-window-selected-p</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                      <span class="p">(</span><span class="nf">boundp</span> <span class="ss">&#39;erc-modified-channels-object</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">erc-modified-channels-object</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">;; RECHTLICHES MISC-INFO: (Für mu4e, Uhrzeit, etc.)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">;; Wird ebenfalls sauber nur im aktiven Fenster gerendert.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">:eval</span> <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nv">mode-line-window-selected-p</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">             <span class="c1">;; Wir filtern ERC hier heraus, da wir es oben bereits separat zeichnen</span>
+</span></span><span class="line"><span class="cl">             <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">misc</span> <span class="p">(</span><span class="nf">copy-sequence</span> <span class="nv">mode-line-misc-info</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">               <span class="p">(</span><span class="nv">assq-delete-all</span> <span class="ss">&#39;erc-modified-channels-object</span> <span class="nv">misc</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="nv">misc</span><span class="p">)))))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; Modeline-Cache global auffrischen</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nf">force-mode-line-update</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; display time in the default mode-line</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq</span> <span class="nv">display-time-24hr-format</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">display-time-mode</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq</span> <span class="nv">display-time-string-forms</span>
+</span></span><span class="line"><span class="cl"><span class="o">&#39;</span><span class="p">((</span><span class="nf">propertize</span> <span class="p">(</span><span class="nf">format-time-string</span> <span class="s">&#34; %a %d %b, %R &#34;</span> <span class="nv">now</span><span class="p">))))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq-default</span> <span class="nv">header-line-format</span>
+</span></span><span class="line"><span class="cl">              <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;%f&#34;</span><span class="p">))</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Proteste in Frankreich</title><link>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</link><pubDate>Tue, 20 Oct 2026 08:35:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</guid><description>Gewalt ist keine Lösung.</description><content:encoded><![CDATA[<h2 id="berechtigte-wut">Berechtigte Wut</h2>
 <p>Die aktuelle Situation in Frankreich ist für mich sehr beunruhigend. Den Durchblick besitze ich nicht und ich will hier auch nicht alle Details und die Gewalttaten aufzählen. Dazu muss ich mich in den nächsten Tagen genauer in die verschiedenen Medien vertiefen und nachforschen, was hier passiert. Verwandte ud Bekannte leben in Frankreich. Sie berichten mir schon seit Jahren von katastrophalen Zuständen z.B. an den Schulen: baufällige Gebäude, keine Heizung, keine Klimaanlage, fehlende Lehrer, Gewalt unter den Schülern, Gewalt gegen Lehrer - sogar von Todesfällen wird berichtet.</p>
 <p>Die Wut über die aktuellen Zustände steigt. Die Franzosen sehen sich mit der Gewalt und dem Chaos allein gelassen, die Politiker leben komplett abgehoben in ihrer eigenen Blase. Präsident Macron besucht mit seiner Frau während der gewaltsamen Proteste ein Celine Dion Konzert. Der Innenminister ist überfordert. Die Polizei wird entweder von den Jugendlichen durch die Straßen gejagt und flieht. Oder sie geht manchmal ziemlich brutal gegen die Jugendlichen vor.</p>
 <p>Wer steuert das alles? Es scheint, als würden spezielle Bilder gesucht, gewollt, &hellip; um eine politische Wende herbeizuführen - ich tippe, es soll weiter nach links gehen. Und Marine Le Pen soll verhindert werden. Da nimmt man verletzte Polizisten und Zivilsten, Chaos, Verwüstung, zerstörte Autos, Geschäfte, &hellip; in Kauf.</p>
