@@ -111,17 +111,41 @@
 <h2 id="Brille">Brille gebrochen</h2>
 <p>Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkleber repariert. Dabei wurde das Glas zerkratzt. Und heute ist sie mir ein zweites Mal gebrochen. Mit Leopold sind wir beide in die Stadt gefahren. Leider bin ich zuerst zur Stadtbibliothek gefahren, um Bücher zurück zu bringen und neue auszuborgen. Warum leider? Ich dachte - den Optiker mache ich am Rückweg. Denn ich hatte ein Geschäft in Nonntal während der Hinfahrt entdeckt. Der Optiker in Nonntal schließt um 12h30. Es war knapp, aber wir haben es doch geschafft und nun habe ich wieder eine ordentliche Brille.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Gebrochene_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Gebrochene Brille
-        </figcaption>
+  
+    
+    <a href="/images/Gebrochene_Brille.jpg" class="glightbox" data-glightbox="title: Gebrochene Brille; description: wunderschön">
+      <img src="/images/Gebrochene_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Gebrochene Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Neue_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Neue Brille
-        </figcaption>
+  
+    
+    <a href="/images/Neue_Brille.jpg" class="glightbox" data-glightbox="title: Neue Brille; description: wunderschön">
+      <img src="/images/Neue_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Neue Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>In weiterer Folge werde ich - wenn es die Finanzen wieder zulassen - neue Gläser für die neue Fassung besorgen. Der Optiker in Nonntal hat mir sehr gut gefallen. Die Mitarbeiter sind sehr freundlich und kompetent. Nur ein Test Text für den ssh key.</p>

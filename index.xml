@@ -114,32 +114,94 @@ Hier sind die Hauptgründe, warum Prots Modeline-Code Hunderte von Zeilen umfass
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq-default</span> <span class="nv">header-line-format</span>
 </span></span><span class="line"><span class="cl">              <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;%f&#34;</span><span class="p">))</span>
 </span></span></code></pre></div><h2 id="beispiel-bilder">Beispiel Bilder</h2>
-<figure class="border-2">
-    <img loading="lazy" src="/images/modeline1.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+<p>Ich habe es geschafft, Bilder ab jetzt &ldquo;clickable&rdquo; zu machen; das bedeutet, man kann mit der Maus draufklicken und sie werden in voller Größe dargestellt, in einem Popup. Für <code>org-mode</code> ändert sich dadurch Folgendes:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-org" data-lang="org"><span class="line"><span class="cl"><span class="cs">#+ATTR_HTML</span><span class="c">: :class border-2 :alt wunderschön :title Blick auf Donau - Donaucity</span>
+</span></span><span class="line"><span class="cl">[[<span class="na">/images/Donau1.jpg</span>]]
+</span></span></code></pre></div><p>So binde ich in Zukunft Bilder in die <code>org</code>-Datei ein. Wenn ich ein Bild sowohl in der Breite als auch in der Höhe auf 100% zwinge, riskieren ich, dass das Bild im Browser verzerrt (gestaucht oder in die Länge gezogen) wird, falls das Seitenverhältnis des Bildes nicht exakt mit dem des Bildschirms übereinstimmt.</p>
+<ul>
+<li>Breite (:width 100%): Ist super! Das sorgt dafür, dass das Bild auf Smartphones und großen Monitoren immer die volle Breite des Textbereichs ausnutzt.</li>
+<li>Höhe (:height 100%): Sollte der Browser automatisch berechnen, um das Seitenverhältnis des Fotos perfekt zu schützen.</li>
+</ul>
+<p>Damit ich in Org-mode in Zukunft sogar das :width 100% bei fast jedem Bild weglassen kann (was mir viel Tipparbeit spart), kann ich eine einzige Zeile in mein globale CSS-Datei (z. B. eine <code>custom.css</code> oder die soeben erstellte <code>glightbox.min.css</code>) einfügen:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">figure</span> <span class="nt">img</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">height</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span> <span class="c">/* Berechnet die Höhe immer automatisch und verhindert Verzerrungen */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><figure class="border-2">
+  
+    
+    <a href="/images/modeline1.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline1.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline2.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline2.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline2.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline3.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline3.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline3.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline4.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline4.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline4.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 ]]></content:encoded></item><item><title>Proteste in Frankreich</title><link>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</link><pubDate>Tue, 20 Oct 2026 08:35:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261020t083511--proteste-in-frankreich__politics/</guid><description>Gewalt ist keine Lösung.</description><content:encoded><![CDATA[<h2 id="berechtigte-wut">Berechtigte Wut</h2>
@@ -303,17 +365,41 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <h2 id="Brille">Brille gebrochen</h2>
 <p>Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkleber repariert. Dabei wurde das Glas zerkratzt. Und heute ist sie mir ein zweites Mal gebrochen. Mit Leopold sind wir beide in die Stadt gefahren. Leider bin ich zuerst zur Stadtbibliothek gefahren, um Bücher zurück zu bringen und neue auszuborgen. Warum leider? Ich dachte - den Optiker mache ich am Rückweg. Denn ich hatte ein Geschäft in Nonntal während der Hinfahrt entdeckt. Der Optiker in Nonntal schließt um 12h30. Es war knapp, aber wir haben es doch geschafft und nun habe ich wieder eine ordentliche Brille.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Gebrochene_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Gebrochene Brille
-        </figcaption>
+  
+    
+    <a href="/images/Gebrochene_Brille.jpg" class="glightbox" data-glightbox="title: Gebrochene Brille; description: wunderschön">
+      <img src="/images/Gebrochene_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Gebrochene Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Neue_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Neue Brille
-        </figcaption>
+  
+    
+    <a href="/images/Neue_Brille.jpg" class="glightbox" data-glightbox="title: Neue Brille; description: wunderschön">
+      <img src="/images/Neue_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Neue Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>In weiterer Folge werde ich - wenn es die Finanzen wieder zulassen - neue Gläser für die neue Fassung besorgen. Der Optiker in Nonntal hat mir sehr gut gefallen. Die Mitarbeiter sind sehr freundlich und kompetent. Nur ein Test Text für den ssh key.</p>
@@ -492,17 +578,41 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <h2 id="hotel">Hotel</h2>
 <p>Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Donau1.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/Donau1.jpg" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/Donau1.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Donau2.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Donau - Richtung Südosten
-        </figcaption>
+  
+    
+    <a href="/images/Donau2.jpg" class="glightbox" data-glightbox="title: Donau - Richtung Südosten; description: wunderschön">
+      <img src="/images/Donau2.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Donau - Richtung Südosten</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h2 id="wallfahrt-zu-sieben-kirchen">Wallfahrt zu sieben Kirchen</h2>
@@ -510,166 +620,418 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <h3 id="rochuskirche">Rochuskirche</h3>
 <p>Hier haben wir eine Zeit der eucharistischen Anebtung verbacht.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Rochuskirche.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Rochuskirche
-        </figcaption>
+  
+    
+    <a href="/images/Rochuskirche.jpg" class="glightbox" data-glightbox="title: Rochuskirche; description: wunderschön">
+      <img src="/images/Rochuskirche.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Rochuskirche</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Rochuskirche_Innenraum.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Rochuskirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Rochuskirche_Innenraum.jpg" class="glightbox" data-glightbox="title: Rochuskirche Innenansicht; description: wunderschön">
+      <img src="/images/Rochuskirche_Innenraum.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Rochuskirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="weisheit--sapientia">Weisheit (Sapientia)</h3>
 <p>Das rechte Urteil über das Leben aus Gottes Sicht.</p>
-<figure class="border-2">
-    <img loading="lazy" src="/images/Dominikaner2.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Dominikanerkirche Wien
-        </figcaption>
+<figure class="border-2 portrait">
+  
+    
+    <a href="/images/Dominikaner2.jpg" class="glightbox" data-glightbox="title: Dominikanerkirche Wien; description: wunderschön">
+      <img src="/images/Dominikaner2.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Dominikanerkirche Wien</h4>
+      
+    </figcaption>
+  
 </figure>
 
-<figure class="border-2">
-    <img loading="lazy" src="/images/Dominikaner3.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Dominikanerkirche Hauptaltar
-        </figcaption>
+<figure class="border-2 portrait">
+  
+    
+    <a href="/images/Dominikaner3.jpg" class="glightbox" data-glightbox="title: Dominikanerkirche Hauptaltar; description: wunderschön">
+      <img src="/images/Dominikaner3.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Dominikanerkirche Hauptaltar</h4>
+      
+    </figcaption>
+  
 </figure>
 
-<figure class="border-2">
-    <img loading="lazy" src="/images/Dominikaner4.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Dominikanerkirche Seitenaltar
-        </figcaption>
+<figure class="border-2 portrait">
+  
+    
+    <a href="/images/Dominikaner4.jpg" class="glightbox" data-glightbox="title: Dominikanerkirche Seitenaltar; description: wunderschön">
+      <img src="/images/Dominikaner4.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Dominikanerkirche Seitenaltar</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="einsicht-verstand--intellectus">Einsicht / Verstand (Intellectus)</h3>
 <p>Das tiefere Begreifen der Glaubensgeheimnisse.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Jesuiten.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Jesuitenkirche Wien
-        </figcaption>
+  
+    
+    <a href="/images/Jesuiten.jpg" class="glightbox" data-glightbox="title: Jesuitenkirche Wien; description: wunderschön">
+      <img src="/images/Jesuiten.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Jesuitenkirche Wien</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Jesuitenkirche_Innenansicht.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Jesuitenkirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Jesuitenkirche_Innenansicht.jpg" class="glightbox" data-glightbox="title: Jesuitenkirche Innenansicht; description: wunderschön">
+      <img src="/images/Jesuitenkirche_Innenansicht.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Jesuitenkirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="rat--consilium">Rat (Consilium)</h3>
 <p>Die Orientierung in schweren Entscheidungen und Nöten.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Franziskanerkirche.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Franziskanerkirche
-        </figcaption>
+  
+    
+    <a href="/images/Franziskanerkirche.jpg" class="glightbox" data-glightbox="title: Franziskanerkirche; description: wunderschön">
+      <img src="/images/Franziskanerkirche.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Franziskanerkirche</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Franziskanerkirche_Innenansicht.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Franziskanerkirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Franziskanerkirche_Innenansicht.jpg" class="glightbox" data-glightbox="title: Franziskanerkirche Innenansicht; description: wunderschön">
+      <img src="/images/Franziskanerkirche_Innenansicht.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Franziskanerkirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="übergang-passage">Übergang - Passage</h3>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Passage1.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Passage Wien
-        </figcaption>
+  
+    
+    <a href="/images/Passage1.jpg" class="glightbox" data-glightbox="title: Passage Wien; description: wunderschön">
+      <img src="/images/Passage1.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Passage Wien</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Passage2.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Passage Wien
-        </figcaption>
+  
+    
+    <a href="/images/Passage2.jpg" class="glightbox" data-glightbox="title: Passage Wien; description: wunderschön">
+      <img src="/images/Passage2.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Passage Wien</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="stärke--fortitudo">Stärke (Fortitudo)</h3>
 <p>Der Mut und die Standhaftigkeit im Glauben.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Kapuzinerkirche.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Kapuzinerkirche
-        </figcaption>
+  
+    
+    <a href="/images/Kapuzinerkirche.jpg" class="glightbox" data-glightbox="title: Kapuzinerkirche; description: wunderschön">
+      <img src="/images/Kapuzinerkirche.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Kapuzinerkirche</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Kapuzinerkirche_Innenansicht.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Kapuzinerkirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Kapuzinerkirche_Innenansicht.jpg" class="glightbox" data-glightbox="title: Kapuzinerkirche Innenansicht; description: wunderschön">
+      <img src="/images/Kapuzinerkirche_Innenansicht.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Kapuzinerkirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="übergang-palais-ferstl">Übergang - Palais Ferstl</h3>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Palais_Ferstl.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Palais Ferstl Wien
-        </figcaption>
+  
+    
+    <a href="/images/Palais_Ferstl.jpg" class="glightbox" data-glightbox="title: Palais Ferstl Wien; description: wunderschön">
+      <img src="/images/Palais_Ferstl.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Palais Ferstl Wien</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="erkenntnis-wissenschaft--scientia">Erkenntnis / Wissenschaft (Scientia)</h3>
 <p>Das Erkennen von Gottes Handschrift in der Welt und Schöpfung.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Schottenkirche.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Freyung, Schottensift
-        </figcaption>
+  
+    
+    <a href="/images/Schottenkirche.jpg" class="glightbox" data-glightbox="title: Freyung, Schottensift; description: wunderschön">
+      <img src="/images/Schottenkirche.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Freyung, Schottensift</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Schottenkirche_Innenansicht.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Schottenkirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Schottenkirche_Innenansicht.jpg" class="glightbox" data-glightbox="title: Schottenkirche Innenansicht; description: wunderschön">
+      <img src="/images/Schottenkirche_Innenansicht.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Schottenkirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="frömmigkeit--pietas">Frömmigkeit (Pietas)</h3>
 <p>Die innige, liebevolle Beziehung zu Gott.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Maria_Gestaade1.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Maria am Gestaade
-        </figcaption>
+  
+    
+    <a href="/images/Maria_Gestaade1.jpg" class="glightbox" data-glightbox="title: Maria am Gestaade; description: wunderschön">
+      <img src="/images/Maria_Gestaade1.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Maria am Gestaade</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Maria_Gestaade2.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Maria am Gestaade
-        </figcaption>
+  
+    
+    <a href="/images/Maria_Gestaade2.jpg" class="glightbox" data-glightbox="title: Maria am Gestaade; description: wunderschön">
+      <img src="/images/Maria_Gestaade2.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Maria am Gestaade</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Maria_Gestaade3.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Maria am Gestaade
-        </figcaption>
+  
+    
+    <a href="/images/Maria_Gestaade3.jpg" class="glightbox" data-glightbox="title: Maria am Gestaade; description: wunderschön">
+      <img src="/images/Maria_Gestaade3.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Maria am Gestaade</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <h3 id="gottesfurcht--timor-domini">Gottesfurcht (Timor Domini)</h3>
 <p>Das Staunen und die Ehrfurcht vor der Größe Gottes.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Peterskirche.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Peterskirche
-        </figcaption>
+  
+    
+    <a href="/images/Peterskirche.jpg" class="glightbox" data-glightbox="title: Peterskirche; description: wunderschön">
+      <img src="/images/Peterskirche.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Peterskirche</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Peterskirche_Innenansicht.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Peterskirche Innenansicht
-        </figcaption>
+  
+    
+    <a href="/images/Peterskirche_Innenansicht.jpg" class="glightbox" data-glightbox="title: Peterskirche Innenansicht; description: wunderschön">
+      <img src="/images/Peterskirche_Innenansicht.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Peterskirche Innenansicht</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>Mittagessen mit Meli und Eisessen</p>
@@ -692,20 +1054,44 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <h3 id="seekirchen">Seekirchen</h3>
 <p>Die SMS Seekirchen ist eine sehr gute Sport Mittelschule, die Schüler erzielen auf diesem Gebiet erstaunliche Leistungen. Vor Kurzem durfte ich beim Schullauf Zeuge davon sein. Die beiden schnellsten der Schule kommen aus einer dritten Klasse  und erreichten dabei eine Zeit von 5:19 Minuten (Strecke 1600m).</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/seekirchen.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Seekirchen am Wallersee
-        </figcaption>
+  
+    
+    <a href="/images/seekirchen.jpg" class="glightbox" data-glightbox="title: Seekirchen am Wallersee; description: wunderschön">
+      <img src="/images/seekirchen.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Seekirchen am Wallersee</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>Im kommenden Frühjahr werden wir mit Freude in den Neubau übersiedeln dürfen.</p>
 <h3 id="mattsee">Mattsee</h3>
 <p>Diese Schule gefällt mir immer besser. Vor allem die Schüler sind sehr nett - vor allem jene, die ich unterrichten darf.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Mattsee.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Mattsee
-        </figcaption>
+  
+    
+    <a href="/images/Mattsee.jpg" class="glightbox" data-glightbox="title: Mattsee; description: wunderschön">
+      <img src="/images/Mattsee.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Mattsee</h4>
+      
+    </figcaption>
+  
 </figure>
 
 ]]></content:encoded></item><item><title>Caddy bye bye</title><link>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</link><pubDate>Fri, 23 May 2025 11:56:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20250523t115657--caddy-bye-bye__emacs/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<h2 id="erinnerungen">Erinnerungen</h2>
@@ -718,7 +1104,10 @@ Ich ergötze mich an deinen Geboten, ∗<br />
 <p>Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.</p>
 <p>[Fotos einfügen]</p>
 <p>Ich habe spürbar Geld und Treibstoff gespart.</p>
-]]></content:encoded></item><item><title>Neue Schule</title><link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link><pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate><guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/purple-gnu.jpg" type="" alt="Löwe"  /></p>
+]]></content:encoded></item><item><title>Neue Schule</title><link>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</link><pubDate>Tue, 11 Mar 2025 09:20:00 +0100</pubDate><guid>https://afterdarkblog.github.io/posts/20250311t092046--neue-schule__hugo/</guid><description>This text was generated using the After Dark post archetype.</description><content:encoded><![CDATA[<p><a href="images/purple-gnu.jpg" target="_blank" rel="noopener noreferrer" title="Klicken für Vollbild">
+  <img src="images/purple-gnu.jpg" alt="Löwe"  />
+</a>
+</p>
 <h2 id="mms-abtenau">MMS Abtenau</h2>
 <p>Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).</p>
 <h2 id="wie-geht-es-weiter">Wie geht es weiter?</h2>

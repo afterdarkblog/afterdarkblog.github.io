@@ -114,32 +114,94 @@ Hier sind die Hauptgründe, warum Prots Modeline-Code Hunderte von Zeilen umfass
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq-default</span> <span class="nv">header-line-format</span>
 </span></span><span class="line"><span class="cl">              <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;%f&#34;</span><span class="p">))</span>
 </span></span></code></pre></div><h2 id="beispiel-bilder">Beispiel Bilder</h2>
-<figure class="border-2">
-    <img loading="lazy" src="/images/modeline1.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+<p>Ich habe es geschafft, Bilder ab jetzt &ldquo;clickable&rdquo; zu machen; das bedeutet, man kann mit der Maus draufklicken und sie werden in voller Größe dargestellt, in einem Popup. Für <code>org-mode</code> ändert sich dadurch Folgendes:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-org" data-lang="org"><span class="line"><span class="cl"><span class="cs">#+ATTR_HTML</span><span class="c">: :class border-2 :alt wunderschön :title Blick auf Donau - Donaucity</span>
+</span></span><span class="line"><span class="cl">[[<span class="na">/images/Donau1.jpg</span>]]
+</span></span></code></pre></div><p>So binde ich in Zukunft Bilder in die <code>org</code>-Datei ein. Wenn ich ein Bild sowohl in der Breite als auch in der Höhe auf 100% zwinge, riskieren ich, dass das Bild im Browser verzerrt (gestaucht oder in die Länge gezogen) wird, falls das Seitenverhältnis des Bildes nicht exakt mit dem des Bildschirms übereinstimmt.</p>
+<ul>
+<li>Breite (:width 100%): Ist super! Das sorgt dafür, dass das Bild auf Smartphones und großen Monitoren immer die volle Breite des Textbereichs ausnutzt.</li>
+<li>Höhe (:height 100%): Sollte der Browser automatisch berechnen, um das Seitenverhältnis des Fotos perfekt zu schützen.</li>
+</ul>
+<p>Damit ich in Org-mode in Zukunft sogar das :width 100% bei fast jedem Bild weglassen kann (was mir viel Tipparbeit spart), kann ich eine einzige Zeile in mein globale CSS-Datei (z. B. eine <code>custom.css</code> oder die soeben erstellte <code>glightbox.min.css</code>) einfügen:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">figure</span> <span class="nt">img</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">height</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span> <span class="c">/* Berechnet die Höhe immer automatisch und verhindert Verzerrungen */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><figure class="border-2">
+  
+    
+    <a href="/images/modeline1.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline1.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline2.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline2.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline2.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline3.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline3.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline3.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/modeline4.png"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Blick auf Donau - Donaucity
-        </figcaption>
+  
+    
+    <a href="/images/modeline4.png" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/modeline4.png"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
 </figure>
 
 ]]></content:encoded></item><item><title>git und ssh</title><link>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</link><pubDate>Fri, 09 Oct 2026 19:25:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</guid><description>Der goldene Standard</description><content:encoded><![CDATA[<h2 id="es-war-mühsam">Es war &ldquo;mühsam&rdquo;</h2>
@@ -255,17 +317,41 @@ Hier sind die Hauptgründe, warum Prots Modeline-Code Hunderte von Zeilen umfass
 <h2 id="Brille">Brille gebrochen</h2>
 <p>Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkleber repariert. Dabei wurde das Glas zerkratzt. Und heute ist sie mir ein zweites Mal gebrochen. Mit Leopold sind wir beide in die Stadt gefahren. Leider bin ich zuerst zur Stadtbibliothek gefahren, um Bücher zurück zu bringen und neue auszuborgen. Warum leider? Ich dachte - den Optiker mache ich am Rückweg. Denn ich hatte ein Geschäft in Nonntal während der Hinfahrt entdeckt. Der Optiker in Nonntal schließt um 12h30. Es war knapp, aber wir haben es doch geschafft und nun habe ich wieder eine ordentliche Brille.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Gebrochene_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Gebrochene Brille
-        </figcaption>
+  
+    
+    <a href="/images/Gebrochene_Brille.jpg" class="glightbox" data-glightbox="title: Gebrochene Brille; description: wunderschön">
+      <img src="/images/Gebrochene_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Gebrochene Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <figure class="border-2">
-    <img loading="lazy" src="/images/Neue_Brille.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Neue Brille
-        </figcaption>
+  
+    
+    <a href="/images/Neue_Brille.jpg" class="glightbox" data-glightbox="title: Neue Brille; description: wunderschön">
+      <img src="/images/Neue_Brille.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Neue Brille</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>In weiterer Folge werde ich - wenn es die Finanzen wieder zulassen - neue Gläser für die neue Fassung besorgen. Der Optiker in Nonntal hat mir sehr gut gefallen. Die Mitarbeiter sind sehr freundlich und kompetent. Nur ein Test Text für den ssh key.</p>

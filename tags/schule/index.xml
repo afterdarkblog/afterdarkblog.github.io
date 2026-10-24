@@ -7,20 +7,44 @@
 <h3 id="seekirchen">Seekirchen</h3>
 <p>Die SMS Seekirchen ist eine sehr gute Sport Mittelschule, die Schüler erzielen auf diesem Gebiet erstaunliche Leistungen. Vor Kurzem durfte ich beim Schullauf Zeuge davon sein. Die beiden schnellsten der Schule kommen aus einer dritten Klasse  und erreichten dabei eine Zeit von 5:19 Minuten (Strecke 1600m).</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/seekirchen.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Seekirchen am Wallersee
-        </figcaption>
+  
+    
+    <a href="/images/seekirchen.jpg" class="glightbox" data-glightbox="title: Seekirchen am Wallersee; description: wunderschön">
+      <img src="/images/seekirchen.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Seekirchen am Wallersee</h4>
+      
+    </figcaption>
+  
 </figure>
 
 <p>Im kommenden Frühjahr werden wir mit Freude in den Neubau übersiedeln dürfen.</p>
 <h3 id="mattsee">Mattsee</h3>
 <p>Diese Schule gefällt mir immer besser. Vor allem die Schüler sind sehr nett - vor allem jene, die ich unterrichten darf.</p>
 <figure class="border-2">
-    <img loading="lazy" src="/images/Mattsee.jpg"
-         alt="wunderschön" width="100%" height="100%"/> <figcaption>
-            Mattsee
-        </figcaption>
+  
+    
+    <a href="/images/Mattsee.jpg" class="glightbox" data-glightbox="title: Mattsee; description: wunderschön">
+      <img src="/images/Mattsee.jpg"
+           alt="wunderschön"
+           width="100%"
+           height="100%"
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Mattsee</h4>
+      
+    </figcaption>
+  
 </figure>
 
 ]]></content:encoded></item></channel></rss>
