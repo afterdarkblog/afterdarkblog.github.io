@@ -204,6 +204,65 @@ Hier sind die Hauptgründe, warum Prots Modeline-Code Hunderte von Zeilen umfass
   
 </figure>
 
+<h2 id="weitere-bilder">Weitere Bilder</h2>
+<p>Diesmal habe ich die Einstellungen für die Größe von Fotos am Handy verändert.</p>
+<figure class="border-2">
+  
+    
+    <a href="/images/Blume1.jpg" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/Blume1.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
+</figure>
+
+<figure class="border-2">
+  
+    
+    <a href="/images/Blume2.jpg" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/Blume2.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
+</figure>
+
+<figure class="border-2">
+  
+    
+    <a href="/images/Blume3.jpg" class="glightbox" data-glightbox="title: Blick auf Donau - Donaucity; description: wunderschön">
+      <img src="/images/Blume3.jpg"
+           alt="wunderschön"
+           
+           
+           style="cursor: zoom-in;" />
+    </a>
+  
+  
+    <figcaption>
+      <h4>Blick auf Donau - Donaucity</h4>
+      
+    </figcaption>
+  
+</figure>
+
 ]]></content:encoded></item><item><title>git und ssh</title><link>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</link><pubDate>Fri, 09 Oct 2026 19:25:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261009t192526--git-und-ssh__emacs_git/</guid><description>Der goldene Standard</description><content:encoded><![CDATA[<h2 id="es-war-mühsam">Es war &ldquo;mühsam&rdquo;</h2>
 <p>Bis jetzt musste ich bei jeder Aktion auf <code>git</code> den Benutzernamen und den Token eingeben. Das war mehr als mühsam. Zusätzlich musste ich den Token alle 90 Tage neu generieren und ändern. Weshalb ich heute nach einer anderen Möglichkeit gesucht habe, diesen Prozess auf eine elegantere Weise durchzuführen.</p>
 <h2 id="der-ssh-key">Der <code>ssh-key</code></h2>
