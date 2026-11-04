@@ -25,7 +25,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">with-eval-after-load</span> <span class="ss">&#39;elfeed</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">define-key</span> <span class="nv">elfeed-search-mode-map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;P&#34;</span><span class="p">)</span> <span class="nf">#&#39;</span><span class="nv">my/elfeed-play-podcast-with-mpv</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">define-key</span> <span class="nv">elfeed-show-mode-map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;P&#34;</span><span class="p">)</span> <span class="nf">#&#39;</span><span class="nv">my/elfeed-play-podcast-with-mpv</span><span class="p">))</span>
-</span></span></code></pre></div><h2 id="elfeed-dot-eö-play-youtube-video-via-mpv-dot-el"><code>elfeed.eö</code> play YouTube video via <code>mpv.el</code></h2>
+</span></span></code></pre></div><h2 id="elfeed-dot-el-play-youtube-video-via-mpv-dot-el"><code>elfeed.el</code> play YouTube video via <code>mpv.el</code></h2>
 <p>Ist wohl selbsterklärend, oder?</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="c1">;;; Play Youtube Video inside Emacs / elfeed (keybinding &#39;V&#39; inside elfeed).</span>
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">elfeed-play-with-mpv</span> <span class="p">()</span>
