@@ -63,7 +63,7 @@
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">define-key</span> <span class="nv">elfeed-search-mode-map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;V&#34;</span><span class="p">)</span> <span class="nf">#&#39;</span><span class="nv">elfeed-play-with-mpv</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">define-key</span> <span class="nv">elfeed-show-mode-map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;V&#34;</span><span class="p">)</span> <span class="nf">#&#39;</span><span class="nv">elfeed-play-with-mpv</span><span class="p">))</span>
 </span></span></code></pre></div><h2 id="elfeed-dot-el-display-comments-post-from-reddit"><code>elfeed.el</code> display comments / post from reddit</h2>
-<p>Ich habe die rss-feeds von ein paar subreddits abonniert und kann dann mit der Tastenkombination ‚c‘ die Kommentare zu einem reddit-Post anzeigen lassen und mit ‚q‘ wieder schließen.</p>
+<p>Ich habe die rss-feeds von einigen subreddits abonniert und kann mit der Tastenkombination ‚c‘ die Kommentare zu einem reddit-Post anzeigen lassen und mit ‚q‘ wieder schließen.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="c1">;;; To route only Reddit traffic through your SOCKS5 proxy while fetching all other feeds directly, you can use Emacs&#39;s advice-add system. This allows you to dynamically turn on the proxy whenever Elfeed requests a URL containing &#34;reddit.com&#34;.</span>
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;socks</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
@@ -205,9 +205,9 @@
 </span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="nf">insert</span> <span class="s">&#34;\n&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="nf">insert</span> <span class="nv">context</span><span class="p">))))</span>
 </span></span></code></pre></div><h2 id="my-modeline--link"><code>my-modeline</code> (link)</h2>
-<p>In meinem Post <a href="/posts/20261024t161930--meine-neue-modeline__emacs/">über meine neue Modeline</a> zeige auf, was sich geändert hat.</p>
+<p>In meinem Post <a href="/posts/20261024t161930--meine-neue-modeline__emacs/">über meine neue Modeline</a> zeige ich genauer auf, was sich geändert hat.</p>
 <h2 id="denote-biblio-dot-el"><code>denote-biblio.el</code></h2>
-<p>Nicht meine Funktion - ein <code>org-capture-template</code>: ich gebe den kompletten bibkey ein und dieses Paket erstellt eine <code>denote</code>-Datei, mit dem bibkey als Inhalt; Möglichkeit, Notizen anzulegen. Ausgehend von diesen Dateien kann ich dann eine <code>bib</code>-Datei erstellen. Autor ist Mohamed Suliman; leider finde ich den ursprünglichen Artikel nicht mehr.</p>
+<p>Nicht meine eigene Funktion - sie ist ein <code>org-capture-template</code>: ich gebe den kompletten bibkey ein und dieses Paket erstellt eine <code>denote</code>-Datei, mit dem bibkey als Inhalt; es besteht die Möglichkeit, Notizen anzulegen. Ausgehend von diesen Dateien kann ich dann eine <code>bib</code>-Datei erstellen. Autor ist der Funktion ist Mohamed Suliman; leider finde ich den ursprünglichen Artikel nicht mehr, in dem er sie vorgestellt hat.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="c1">;;; denote-biblio.el --- BibTex entries with denote  -*- lexical-binding: t; -*-</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">;; Copyright (C) 2025  Matthias Fuchs</span>
@@ -385,7 +385,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">with-eval-after-load</span> <span class="ss">&#39;biblio-core</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nv">add-hook</span> <span class="ss">&#39;biblio-selection-mode-hook</span> <span class="nf">#&#39;</span><span class="nv">my/biblio-setup-keys-and-cleaner</span><span class="p">))</span>
 </span></span></code></pre></div><h2 id="biblio-dot-el-add-bibkey-to-literatur-dot-bib-file"><code>biblio.el</code> add bibkey to <code>Literatur.bib</code>-file</h2>
-<p>Im Suchbuffer von <code>biblio.el</code> kann ich durch eine Tastenkombination den Bibkey eines Suchergebnisses auslesen und in die <code>Literatur.el</code> schreiben.</p>
+<p>Im Suchbuffer von <code>biblio.el</code> kann ich durch eine Tastenkombination den Bibkey eines Suchergebnisses auslesen und in die <code>Literatur.bib</code>-Datei schreiben.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">my/biblio-append-to-global-file</span> <span class="p">()</span>
 </span></span><span class="line"><span class="cl">  <span class="s">&#34;Kopiert den Eintrag, hängt ihn an die .bib-Datei an und putzt danach alle Kapitel weg.&#34;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
@@ -410,7 +410,7 @@
 </span></span><span class="line"><span class="cl">                        <span class="p">(</span><span class="nf">message</span> <span class="s">&#34;Warte auf BibTeX-Daten...&#34;</span><span class="p">))))</span>
 </span></span><span class="line"><span class="cl">                  <span class="nv">mein-bib-file-pfad</span><span class="p">))</span>
 </span></span></code></pre></div><h2 id="my-citar-add-and-note-dot-el"><code>my-citar-add-and-note.el</code></h2>
-<p>Bibkey data händisch eingeben (Autor, Titel, &hellip;) - bibkey wird in <code>Literatur.bib</code>-Datei eingetragen und gleichzeitig eine <code>citar-denote</code>-datei erstellt.</p>
+<p>Die Bibkey Daten händisch eingeben (Autor, Titel, &hellip;) - bibkey wird in <code>Literatur.bib</code>-Datei eingetragen und gleichzeitig eine <code>citar-denote</code>-Datei erstellt.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">my-citar-add-and-note</span> <span class="p">()</span>
 </span></span><span class="line"><span class="cl">  <span class="s">&#34;Erstellt sofort und ohne Internet-Abhängigkeit einen sauberen BibTeX-Eintrag und eine Denote-Notiz.
 </span></span></span><span class="line"><span class="cl"><span class="s">Unterstützt Monographien (@book) sowie Sammelwerke und herausgegebene Werke.&#34;</span>
@@ -479,7 +479,7 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nf">define-key</span> <span class="nv">global-map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-c B&#34;</span><span class="p">)</span> <span class="nf">#&#39;</span><span class="nv">my-citar-add-and-note</span><span class="p">)</span>
 </span></span></code></pre></div><h2 id="fazit">Fazit</h2>
-<p>Ich muss zugeben, dass ich (noch) zu wenig von Emacs Lisp verstehe; daher sind einige der Codeblocks mit Hilfe von AI entstanden. So ziemlich alle haben nicht auf Anhieb funktioniert; einmal ist mir fast die gesamte <code>init.el</code> kaputt gegangen und ich konnte mit Müh und Not im letzten Augenblick retten.</p>
+<p>Ich muss zugeben, dass ich (noch) zu wenig von Emacs Lisp verstehe; daher sind einige der Codeblocks mit Hilfe von AI entstanden. So ziemlich alle haben nicht auf Anhieb funktioniert; einmal ist mir fast die gesamte <code>init.el</code> kaputt gegangen und ich konnte sie mit Müh und Not im letzten Augenblick retten.</p>
 <p>Ich habe aber trotz der Hilfe durch AI einiges von Emacs Lisp gelernt und verstanden; zumindest reifte in mir der feste Entschluss, Emacs und sein eingebautes Tutorial zu konsultieren und durchzuarbeiten. Es ist noch immer die beste Art, Emacs Lisp zu lernen. Ich habe gehört, man profitiert und lernt von Emacs Lisp mehr als von jeder anderen Computersprache.</p>
 ]]></content:encoded></item><item><title>Meine neue Modeline</title><link>https://afterdarkblog.github.io/posts/20261024t161930--meine-neue-modeline__emacs/</link><pubDate>Sat, 24 Oct 2026 16:19:00 +0200</pubDate><guid>https://afterdarkblog.github.io/posts/20261024t161930--meine-neue-modeline__emacs/</guid><description>Simple is beautiful.</description><content:encoded><![CDATA[<h2 id="meine-alte-mode-line">Meine alte <code>mode-line</code></h2>
 <p>Vorher habe ich Prot&rsquo;s Version seiner <code>mode-line</code> verwendet. Sie hat super funktioniert; dafür habe ich allerdings drei riesige Dateien gebraucht. Warum?</p>
