@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emacs on After Dark</title><link>https://afterdarkblog.github.io/tags/emacs/</link><description>Recent content in Emacs on After Dark</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Wed, 04 Nov 2026 17:54:00 +0100</lastBuildDate><atom:link href="https://afterdarkblog.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml"/><item><title>Neue ssh keys</title><link>https://afterdarkblog.github.io/posts/20261104t175450--neue-ssh-keys__emacs/</link><pubDate>Wed, 04 Nov 2026 17:54:00 +0100</pubDate><guid>https://afterdarkblog.github.io/posts/20261104t175450--neue-ssh-keys__emacs/</guid><description>That was tricky.</description><content:encoded><![CDATA[<h2 id="auf-einmal-panik">Auf einmal Panik</h2>
 <p>Nachdem ich es geschafft habe, dass <code>hugo</code> die Anführungszeichen korrekt darstellt, gab es Probleme mit den <code>ssh-keys</code>.</p>
-<h2 id="dann-ruhe">Dann Ruhe</h2>
+<p>Die relevanten Einstellungen in der <code>hugo.toml</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">locale</span> <span class="p">=</span> <span class="s1">&#39;de&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">defaultContentLanguage</span> <span class="p">=</span> <span class="s1">&#39;de&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">extensions</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">extensions</span><span class="p">.</span><span class="nx">typographer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">disable</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">leftDoubleQuote</span> <span class="p">=</span> <span class="s2">&#34;„&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">rightDoubleQuote</span> <span class="p">=</span> <span class="s2">&#34;“&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">leftSingleQuote</span> <span class="p">=</span> <span class="s2">&#34;‚&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">rightSingleQuote</span> <span class="p">=</span> <span class="s2">&#34;‘&#34;</span>
+</span></span></code></pre></div><p>In den <code>org</code>-Dateien habe ich folgende Optionen ergänzt:</p>
+<pre tabindex="0"><code class="language-org-mode" data-lang="org-mode">#+language: de
+#+options: smart-quotes:t
+#+HUGO_LOCALE: de
+</code></pre><h2 id="dann-ruhe">Dann Ruhe</h2>
 <p>Nach einigen erfolglosen Versuchen habe ich neue <code>ssh-keys</code> erstellt und das deploy-Skript umgeschrieben. Nun sind der Blog und das zweite Repo für meine <code>org</code>-Dateien sauber getrennt. Im Prinzip läuft es so, dass es direkt auf einen eigenen <code>ssh key</code> zugreift (unabhängig von der ssh <code>config</code>-Datei).</p>
 <p><code>magit</code> kann dann ungestört auf diese <code>config</code>-Datei zugreifen und den dort konfigurierten <code>ssh-key</code> für das <code>org</code>-Repo.</p>
-<h2 id="das-skript">Das Skript</h2>
+<h2 id="das-blog-skript">Das Blog Skript</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
 </span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Sicherheit: Sicherstellen, dass das Skript im Hauptverzeichnis ausgeführt wird</span>
